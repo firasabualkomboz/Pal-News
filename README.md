@@ -7,20 +7,6 @@
 * TAG - CRUD
 * ARTICLE - CRUD 
 
-Laravel is a web
+#### Some of the additions used in the development of the Project : 
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-
-## Learning Laravel
-
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) 
-
-## Laravel Sponsors
-text
-### Premium Partners
-
-- **[User Permision](https://vehikl.com/)**
-
-## Contributing
-
-tt
+* Creating Alert Actions
