@@ -105,7 +105,7 @@
 </span>
 </a>
 
-<form action="{{route('admin.categories.destroy',[$category->id])}}" method="post">
+<form action="{{route('admin.categories.destroy',[$category->id])}}" method="post" style="display: inline-block">
 @csrf
 @method('delete')
 <button type="submit" class="btn btn-sm btn-clean btn-icon">

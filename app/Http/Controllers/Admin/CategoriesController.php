@@ -33,9 +33,9 @@ class CategoriesController extends Controller
             'name' => $request->post('name'),
 
         ]);
-        return view('admin.categories.index')
-        ->with('success','The Section Has Been Added Successfully');
 
+        return redirect()->route('admin.categories.index')
+        ->with('success','The Section Has Been Added Successfully');
     }
 
 
@@ -62,7 +62,8 @@ class CategoriesController extends Controller
 
         $category->save();
 
-        return view('admin.categories.index')->with('success','The Category Has Been Updated Successfully');
+        return redirect()->route('admin.categories.index')
+        ->with('success','The Category Has Been Updated Successfully');
     }
 
 
@@ -70,7 +71,9 @@ class CategoriesController extends Controller
     {
         $catgory = Category::findOrFail($id);
         $catgory->delete();
-        return view('admin.categories.index')
+
+        return redirect()->route('admin.categories.index')
         ->with('success','The Category Has Been Deleted Successfully');
+
     }
 }

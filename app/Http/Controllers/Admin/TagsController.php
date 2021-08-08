@@ -9,11 +9,7 @@ use Illuminate\Http\Request;
 
 class TagsController extends Controller
 {
-    /**
-     * Display a listing of the resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
+
     public function index()
     {
         $tags = Tag::paginate(5);
@@ -40,48 +36,35 @@ class TagsController extends Controller
         ->with('success','Your Tag Has Been Successfully Added');
     }
 
-    /**
-     * Display the specified resource.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
+
     public function show($id)
     {
         //
     }
 
-    /**
-     * Show the form for editing the specified resource.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
     public function edit($id)
     {
-        //
+        $tag = Tag::findOrFail($id);
+        return view('admin.tags.edit',[
+            'tag' => $tag,
+        ]);
     }
 
-    /**
-     * Update the specified resource in storage.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
     public function update(Request $request, $id)
     {
-        //
+        $tag = Tag::findOrFail($id);
+        $tag -> tag = $request -> tag;
+        $tag -> save();
+        return redirect()->route('admin.tags.index')
+        ->with('success','The Tag Has Been Updated Successfully');
     }
 
-    /**
-     * Remove the specified resource from storage.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
+
     public function destroy($id)
     {
-        //
+        $tag = Tag::findOrFail($id);
+        $tag->delete();
+        return redirect()->route('admin.tags.index')
+        ->with('success','The Tag Has Been Deleted Successfully');
     }
 }
