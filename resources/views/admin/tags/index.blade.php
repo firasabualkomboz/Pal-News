@@ -16,7 +16,7 @@
 </div>
 
 @if (session()->has('success'))
-<div class="alert-text alert-danger">{{session()->get('success')}}</div>
+<div class="alert-text alert-primary p-5 border-2">{{session()->get('success')}}</div>
 @endif
 
 </div>

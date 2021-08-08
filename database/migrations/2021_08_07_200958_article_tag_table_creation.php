@@ -14,11 +14,9 @@ class ArticleTagTableCreation extends Migration
     public function up()
     {
         Schema::create('article_tag', function (Blueprint $table) {
-            $table->id();
-            $table->integer('article_id');
-            $table->integer('tag_id');
-//            $table->foreignId('category_id')->nullable()->constrained('categories','id')->nullOnDelete();
-            $table->timestamps();
+            $table->foreignId('article_id')->constrained('articles','id')->cascadeOnDelete();
+            $table->foreignId('tag_id')->constrained('tags','id')->cascadeOnDelete();
+            $table->primary(['article_id','tag_id']);
         });
     }
 

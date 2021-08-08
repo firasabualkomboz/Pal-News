@@ -8,6 +8,7 @@ use App\Models\Article;
 use App\Models\Category;
 use App\Models\Tag;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Storage;
 
 class ArticlesController extends Controller
 {
@@ -41,6 +42,8 @@ class ArticlesController extends Controller
         return view('admin.articles.create',[
             'categories' => $categories,
             'tags'       => $tags,
+            'article_tag' => [],
+
         ]);
 
     }
@@ -64,44 +67,64 @@ class ArticlesController extends Controller
 
         ]);
 
-        $articles -> tags()->attach($request->tags);
+        $tags = $request->post('tag',[]);
+        $articles->tags()->attach($tags);
 
         return redirect()->route('admin.articles.index')
             ->with('success','Your Article Has Been Successfully Added');
     }
 
-    /**
-     * Display the specified resource.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
+
     public function show($id)
     {
         //
     }
 
-    /**
-     * Show the form for editing the specified resource.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
+
     public function edit($id)
     {
-        //
+        $article = Article::findOrFail($id);
+        $article_tag = $article->tags()->pluck('id')->toArray();
+        return view('admin.articles.edit',[
+            'article' => $article ,
+            'categories' => Category::all(),
+            'tags' => Tag::all(),
+            'article_tag' => $article_tag
+        ]);
     }
 
-    /**
-     * Update the specified resource in storage.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
-    public function update(Request $request, $id)
+
+    public function update(ArticleRequest $request, $id)
     {
-        //
+        $article = Article::findOrFail($id);
+        $photo_path = $article-> photo;
+        $old_photo  = $article -> photo;
+
+        if($request->hasFile('photo') && $request->file('photo')->isValid()){
+            $file = $request->file('photo');
+            $photo_path =$file->store('/',[
+                'disk' => 'uploads'
+            ]);
+        }
+
+        $article->update([
+
+            'title' => $request->post('title'),
+            'content' => $request->post('content'),
+            'category_id' => $request->post('category_id'),
+            'photo' => $photo_path,
+
+        ]);
+
+        $tags = $request->post('tag' , []);
+        $article->tags()->sync($tags);
+
+        if($old_photo && $old_photo != $photo_path){
+            Storage::disk('uploads')->delete($old_photo);
+        }
+        return redirect()->route('admin.articles.index')
+            ->with('success','The Article Was Successfully Updated');
+
     }
 
     public function destroy($id)

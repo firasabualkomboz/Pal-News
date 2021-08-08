@@ -889,7 +889,6 @@ License: You must have a valid license purchased only from themeforest(the above
 <li class="menu-item menu-item-submenu" aria-haspopup="true" data-menu-toggle="hover">
 <a href="javascript:;" class="menu-link menu-toggle">
 <span class="svg-icon menu-icon">
-<!--begin::Svg Icon | path:dashboard_files/assets/media/svg/icons/Design/Bucket.svg-->
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
 <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
 <rect x="0" y="0" width="24" height="24" />
@@ -899,6 +898,7 @@ License: You must have a valid license purchased only from themeforest(the above
 </svg>
 <!--end::Svg Icon-->
 </span>
+
 <span class="menu-text">Categories</span>
 <i class="menu-arrow"></i>
 </a>
@@ -2605,8 +2605,8 @@ License: You must have a valid license purchased only from themeforest(the above
                 <div class="container-fluid d-flex flex-column flex-md-row align-items-center justify-content-between">
                     <!--begin::Copyright-->
                     <div class="text-dark order-2 order-md-1">
-                        <span class="text-muted font-weight-bold mr-2">2020©</span>
-                        <a href="http://keenthemes.com/metronic" target="_blank" class="text-dark-75 text-hover-primary">Keenthemes</a>
+                        <span class="text-muted font-weight-bold mr-2">2021©</span>
+                        <a href="http://keenthemes.com/metronic" target="_blank" class="text-dark-75 text-hover-primary">PAL News</a>
                     </div>
                     <!--end::Copyright-->
                     <!--begin::Nav-->

@@ -23,7 +23,7 @@ class ArticleRequest extends FormRequest
             'title' => 'required|String|unique:articles',
             'content' => 'required',
             'photo' => 'required|image',
-            'tags' => 'required'
+            'tag' => 'required'
 
         ];
     }

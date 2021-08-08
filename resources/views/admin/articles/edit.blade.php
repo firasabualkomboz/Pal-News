@@ -1,20 +1,16 @@
-<x-admin-layout title="Add New Article" category="Articles">
+<x-admin-layout title="Edit Article" category="Articles">
 <div class="card card-custom">
 <div class="card-header">
 <h3 class="card-title">
-Add articles
+Edit articles
 </h3>
-<div class="card-toolbar">
-<div class="example-tools justify-content-center">
-<span class="example-toggle" data-toggle="tooltip" title="View code"></span>
-<span class="example-copy" data-toggle="tooltip" title="Copy code"></span>
-</div>
-</div>
 </div>
 <!--begin::Form-->
-<form method="post" action="{{route('admin.articles.store')}}" enctype="multipart/form-data">
+<form method="post" action="{{route('admin.articles.update',[$article->id])}}" enctype="multipart/form-data">
 @csrf
-<div class="card-body">
+    @method('put')
+
+    <div class="card-body">
 
 @if ($errors->any())
 <div class="alert alert-danger">
@@ -28,19 +24,19 @@ Add articles
 
 <div class="form-group">
 <label>Article Title</label>
-<input type="text" class="form-control" name="title" placeholder="Enter Tag"/>
+<input type="text" class="form-control" name="title" value="{{old('title',$article->title)}}" placeholder="Enter Tag"/>
 </div>
 
 <div class="form-group mb-1">
 <label for="exampleTextarea">Article Content <span class="text-danger">*</span></label>
-<textarea class="form-control"  name="content" id="exampleTextarea" rows="3"></textarea>
+<textarea class="form-control"  name="content" value="{{old('content',$article->content)}}" rows="3"></textarea>
 </div>
 
 <div class="form-group">
 <label for="exampleSelectl">Article Category</label>
 <select class="form-control form-control-lg" name="category_id">
 @foreach($categories as $category)
-<option value="{{$category->id}}">{{$category->name}}</option>
+<option value="{{$category->id}}"  @if ($category->id == old('category_id' , $article->category_id ) ) selected @endif>{{$category->name}}</option>
 @endforeach
 </select>
 </div>
@@ -50,7 +46,7 @@ Add articles
 <div class="checkbox-inline">
 @foreach($tags as $tag)
 <label class="checkbox">
-<input type="checkbox" value="{{$tag->id}}" name="tag[]"/>
+<input type="checkbox" value="{{$tag->id}}" name="tag[]"  @if (in_array($tag->id , $article_tag))checked @endif />
 <span></span>
 {{$tag->tag}}
 </label>

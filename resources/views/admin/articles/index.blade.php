@@ -101,10 +101,10 @@
 <td>{{$loop->index}}</td>
 <td>{{$article->title}}</td>
 <td>{{$article->content}}</td>
-<td>@foreach($article->tags as $tag) <span class="btn btn-outline-primary"> {{$tag->tag}} </span> @endforeach </td>
+<td>@foreach($article->tags as $tag) <span class="btn btn-sm btn-outline-primary"> {{$tag->tag}} </span> @endforeach </td>
 <td><img height="60" src="{{$article->PhotoUrl}}" alt=""></td>
 <td>
-<a href="javascript:;" class="btn btn-sm btn-clean btn-icon mr-2" title="Edit details">
+<a href="{{route('admin.articles.edit',[$article->id])}}" class="btn btn-sm btn-clean btn-icon mr-2" title="Edit details">
 <span class="svg-icon svg-icon-md">
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
 <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -116,7 +116,7 @@
 </span>
 </a>
 
-<form action="{{route('admin.articles.destroy',[$article->id])}}" method="post">
+<form action="{{route('admin.articles.destroy',[$article->id])}}" method="post" style="display: inline-block">
 @csrf
 @method('delete')
 <button type="submit" class="btn btn-sm btn-clean btn-icon">

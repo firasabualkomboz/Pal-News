@@ -9,9 +9,7 @@ class Article extends Model
 {
     use HasFactory;
     protected $fillable = [
-
         'title' , 'content' , 'photo' , 'category_id'
-
     ];
 
     public function category()
@@ -21,7 +19,8 @@ class Article extends Model
 
     public function tags()
     {
-        return $this->belongsToMany(Tag::class);
+        return $this->belongsToMany(Tag::class ,'article_tag' , 'article_id','tag_id','id','id')
+        ->withPivot('article_id','tag_id');
     }
 
     public function getPhotoUrlAttribute()
