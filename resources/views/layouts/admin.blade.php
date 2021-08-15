@@ -152,443 +152,7 @@ License: You must have a valid license purchased only from themeforest(the above
 <div class="menu-submenu">
 <i class="menu-arrow"></i>
 <ul class="menu-subnav">
-<li class="menu-item menu-item-parent" aria-haspopup="true">
-<span class="menu-link">
-<span class="menu-text">Applications</span>
-</span>
-</li>
-<li class="menu-item menu-item-submenu" aria-haspopup="true" data-menu-toggle="hover">
-<a href="javascript:;" class="menu-link menu-toggle">
-<i class="menu-bullet menu-bullet-line">
-<span></span>
-</i>
-<span class="menu-text">Users</span>
-<i class="menu-arrow"></i>
-</a>
-<div class="menu-submenu">
-<i class="menu-arrow"></i>
-<ul class="menu-subnav">
-<li class="menu-item" aria-haspopup="true">
-<a href="custom/apps/user/list-default.html" class="menu-link">
-<i class="menu-bullet menu-bullet-dot">
-<span></span>
-</i>
-<span class="menu-text">List - Default</span>
-</a>
-</li>
-<li class="menu-item" aria-haspopup="true">
-<a href="custom/apps/user/list-datatable.html" class="menu-link">
-<i class="menu-bullet menu-bullet-dot">
-<span></span>
-</i>
-<span class="menu-text">List - Datatable</span>
-</a>
-</li>
-<li class="menu-item" aria-haspopup="true">
-<a href="custom/apps/user/list-columns-1.html" class="menu-link">
-<i class="menu-bullet menu-bullet-dot">
-<span></span>
-</i>
-<span class="menu-text">List - Columns 1</span>
-</a>
-</li>
-<li class="menu-item" aria-haspopup="true">
-<a href="custom/apps/user/list-columns-2.html" class="menu-link">
-<i class="menu-bullet menu-bullet-dot">
-<span></span>
-</i>
-<span class="menu-text">List - Columns 2</span>
-</a>
-</li>
-<li class="menu-item" aria-haspopup="true">
-<a href="custom/apps/user/add-user.html" class="menu-link">
-<i class="menu-bullet menu-bullet-dot">
-<span></span>
-</i>
-<span class="menu-text">Add User</span>
-</a>
-</li>
-<li class="menu-item" aria-haspopup="true">
-<a href="custom/apps/user/edit-user.html" class="menu-link">
-<i class="menu-bullet menu-bullet-dot">
-<span></span>
-</i>
-<span class="menu-text">Edit User</span>
-</a>
-</li>
-</ul>
-</div>
-</li>
-<li class="menu-item menu-item-submenu" aria-haspopup="true" data-menu-toggle="hover">
-<a href="javascript:;" class="menu-link menu-toggle">
-<i class="menu-bullet menu-bullet-line">
-<span></span>
-</i>
-<span class="menu-text">Profile</span>
-<i class="menu-arrow"></i>
-</a>
-<div class="menu-submenu">
-<i class="menu-arrow"></i>
-<ul class="menu-subnav">
-<li class="menu-item menu-item-submenu" aria-haspopup="true" data-menu-toggle="hover">
-<a href="javascript:;" class="menu-link menu-toggle">
-<i class="menu-bullet menu-bullet-dot">
-<span></span>
-</i>
-<span class="menu-text">Profile 1</span>
-<i class="menu-arrow"></i>
-</a>
-<div class="menu-submenu">
-<i class="menu-arrow"></i>
-<ul class="menu-subnav">
-<li class="menu-item" aria-haspopup="true">
-<a href="custom/apps/profile/profile-1/overview.html" class="menu-link">
-<i class="menu-bullet menu-bullet-line">
-<span></span>
-</i>
-<span class="menu-text">Overview</span>
-</a>
-</li>
-<li class="menu-item" aria-haspopup="true">
-<a href="custom/apps/profile/profile-1/personal-information.html" class="menu-link">
-<i class="menu-bullet menu-bullet-line">
-<span></span>
-</i>
-<span class="menu-text">Personal Information</span>
-</a>
-</li>
-<li class="menu-item" aria-haspopup="true">
-<a href="custom/apps/profile/profile-1/account-information.html" class="menu-link">
-<i class="menu-bullet menu-bullet-line">
-<span></span>
-</i>
-<span class="menu-text">Account Information</span>
-</a>
-</li>
-<li class="menu-item" aria-haspopup="true">
-<a href="custom/apps/profile/profile-1/change-password.html" class="menu-link">
-<i class="menu-bullet menu-bullet-line">
-<span></span>
-</i>
-<span class="menu-text">Change Password</span>
-</a>
-</li>
-<li class="menu-item" aria-haspopup="true">
-<a href="custom/apps/profile/profile-1/email-settings.html" class="menu-link">
-<i class="menu-bullet menu-bullet-line">
-<span></span>
-</i>
-<span class="menu-text">Email Settings</span>
-</a>
-</li>
-</ul>
-</div>
-</li>
-<li class="menu-item" aria-haspopup="true">
-<a href="custom/apps/profile/profile-2.html" class="menu-link">
-<i class="menu-bullet menu-bullet-dot">
-<span></span>
-</i>
-<span class="menu-text">Profile 2</span>
-</a>
-</li>
-<li class="menu-item" aria-haspopup="true">
-<a href="custom/apps/profile/profile-3.html" class="menu-link">
-<i class="menu-bullet menu-bullet-dot">
-<span></span>
-</i>
-<span class="menu-text">Profile 3</span>
-</a>
-</li>
-<li class="menu-item" aria-haspopup="true">
-<a href="custom/apps/profile/profile-4.html" class="menu-link">
-<i class="menu-bullet menu-bullet-dot">
-<span></span>
-</i>
-<span class="menu-text">Profile 4</span>
-</a>
-</li>
-</ul>
-</div>
-</li>
-<li class="menu-item menu-item-submenu" aria-haspopup="true" data-menu-toggle="hover">
-<a href="javascript:;" class="menu-link menu-toggle">
-<i class="menu-bullet menu-bullet-line">
-<span></span>
-</i>
-<span class="menu-text">Contacts</span>
-<i class="menu-arrow"></i>
-</a>
-<div class="menu-submenu">
-<i class="menu-arrow"></i>
-<ul class="menu-subnav">
-<li class="menu-item" aria-haspopup="true">
-<a href="custom/apps/contacts/list-columns.html" class="menu-link">
-<i class="menu-bullet menu-bullet-dot">
-<span></span>
-</i>
-<span class="menu-text">List - Columns</span>
-</a>
-</li>
-<li class="menu-item" aria-haspopup="true">
-<a href="custom/apps/contacts/list-datatable.html" class="menu-link">
-<i class="menu-bullet menu-bullet-dot">
-<span></span>
-</i>
-<span class="menu-text">List - Datatable</span>
-</a>
-</li>
-<li class="menu-item" aria-haspopup="true">
-<a href="custom/apps/contacts/view-contact.html" class="menu-link">
-<i class="menu-bullet menu-bullet-dot">
-<span></span>
-</i>
-<span class="menu-text">View Contact</span>
-</a>
-</li>
-<li class="menu-item" aria-haspopup="true">
-<a href="custom/apps/contacts/add-contact.html" class="menu-link">
-<i class="menu-bullet menu-bullet-dot">
-<span></span>
-</i>
-<span class="menu-text">Add Contact</span>
-</a>
-</li>
-<li class="menu-item" aria-haspopup="true">
-<a href="custom/apps/contacts/edit-contact.html" class="menu-link">
-<i class="menu-bullet menu-bullet-dot">
-<span></span>
-</i>
-<span class="menu-text">Edit Contact</span>
-</a>
-</li>
-</ul>
-</div>
-</li>
-<li class="menu-item menu-item-submenu" aria-haspopup="true" data-menu-toggle="hover">
-<a href="javascript:;" class="menu-link menu-toggle">
-<i class="menu-bullet menu-bullet-line">
-<span></span>
-</i>
-<span class="menu-text">Projects</span>
-<i class="menu-arrow"></i>
-</a>
-<div class="menu-submenu">
-<i class="menu-arrow"></i>
-<ul class="menu-subnav">
-<li class="menu-item" aria-haspopup="true">
-<a href="custom/apps/projects/list-columns-1.html" class="menu-link">
-<i class="menu-bullet menu-bullet-dot">
-<span></span>
-</i>
-<span class="menu-text">List - Columns 1</span>
-</a>
-</li>
-<li class="menu-item" aria-haspopup="true">
-<a href="custom/apps/projects/list-columns-2.html" class="menu-link">
-<i class="menu-bullet menu-bullet-dot">
-<span></span>
-</i>
-<span class="menu-text">List - Columns 2</span>
-</a>
-</li>
-<li class="menu-item" aria-haspopup="true">
-<a href="custom/apps/projects/list-columns-3.html" class="menu-link">
-<i class="menu-bullet menu-bullet-dot">
-<span></span>
-</i>
-<span class="menu-text">List - Columns 3</span>
-</a>
-</li>
-<li class="menu-item" aria-haspopup="true">
-<a href="custom/apps/projects/list-columns-4.html" class="menu-link">
-<i class="menu-bullet menu-bullet-dot">
-<span></span>
-</i>
-<span class="menu-text">List - Columns 4</span>
-</a>
-</li>
-<li class="menu-item" aria-haspopup="true">
-<a href="custom/apps/projects/list-datatable.html" class="menu-link">
-<i class="menu-bullet menu-bullet-dot">
-<span></span>
-</i>
-<span class="menu-text">List - Datatable</span>
-</a>
-</li>
-<li class="menu-item" aria-haspopup="true">
-<a href="custom/apps/projects/view-project.html" class="menu-link">
-<i class="menu-bullet menu-bullet-dot">
-<span></span>
-</i>
-<span class="menu-text">View Project</span>
-</a>
-</li>
-<li class="menu-item" aria-haspopup="true">
-<a href="custom/apps/projects/add-project.html" class="menu-link">
-<i class="menu-bullet menu-bullet-dot">
-<span></span>
-</i>
-<span class="menu-text">Add Project</span>
-</a>
-</li>
-<li class="menu-item" aria-haspopup="true">
-<a href="custom/apps/projects/edit-project.html" class="menu-link">
-<i class="menu-bullet menu-bullet-dot">
-<span></span>
-</i>
-<span class="menu-text">Edit Project</span>
-</a>
-</li>
-</ul>
-</div>
-</li>
-<li class="menu-item menu-item-submenu" aria-haspopup="true" data-menu-toggle="hover">
-<a href="javascript:;" class="menu-link menu-toggle">
-<i class="menu-bullet menu-bullet-line">
-<span></span>
-</i>
-<span class="menu-text">Support Center</span>
-<i class="menu-arrow"></i>
-</a>
-<div class="menu-submenu">
-<i class="menu-arrow"></i>
-<ul class="menu-subnav">
-<li class="menu-item" aria-haspopup="true">
-<a href="custom/apps/support-center/home-1.html" class="menu-link">
-<i class="menu-bullet menu-bullet-dot">
-<span></span>
-</i>
-<span class="menu-text">Home 1</span>
-</a>
-</li>
-<li class="menu-item" aria-haspopup="true">
-<a href="custom/apps/support-center/home-2.html" class="menu-link">
-<i class="menu-bullet menu-bullet-dot">
-<span></span>
-</i>
-<span class="menu-text">Home 2</span>
-</a>
-</li>
-<li class="menu-item" aria-haspopup="true">
-<a href="custom/apps/support-center/faq-1.html" class="menu-link">
-<i class="menu-bullet menu-bullet-dot">
-<span></span>
-</i>
-<span class="menu-text">FAQ 1</span>
-</a>
-</li>
-<li class="menu-item" aria-haspopup="true">
-<a href="custom/apps/support-center/faq-2.html" class="menu-link">
-<i class="menu-bullet menu-bullet-dot">
-<span></span>
-</i>
-<span class="menu-text">FAQ 2</span>
-</a>
-</li>
-<li class="menu-item" aria-haspopup="true">
-<a href="custom/apps/support-center/faq-3.html" class="menu-link">
-<i class="menu-bullet menu-bullet-dot">
-<span></span>
-</i>
-<span class="menu-text">FAQ 3</span>
-</a>
-</li>
-<li class="menu-item" aria-haspopup="true">
-<a href="custom/apps/support-center/feedback.html" class="menu-link">
-<i class="menu-bullet menu-bullet-dot">
-<span></span>
-</i>
-<span class="menu-text">Feedback</span>
-</a>
-</li>
-<li class="menu-item" aria-haspopup="true">
-<a href="custom/apps/support-center/license.html" class="menu-link">
-<i class="menu-bullet menu-bullet-dot">
-<span></span>
-</i>
-<span class="menu-text">License</span>
-</a>
-</li>
-</ul>
-</div>
-</li>
-<li class="menu-item menu-item-submenu" aria-haspopup="true" data-menu-toggle="hover">
-<a href="javascript:;" class="menu-link menu-toggle">
-<i class="menu-bullet menu-bullet-line">
-<span></span>
-</i>
-<span class="menu-text">Chat</span>
-<i class="menu-arrow"></i>
-</a>
-<div class="menu-submenu">
-<i class="menu-arrow"></i>
-<ul class="menu-subnav">
-<li class="menu-item" aria-haspopup="true">
-<a href="custom/apps/chat/private.html" class="menu-link">
-<i class="menu-bullet menu-bullet-dot">
-<span></span>
-</i>
-<span class="menu-text">Private</span>
-</a>
-</li>
-<li class="menu-item" aria-haspopup="true">
-<a href="custom/apps/chat/group.html" class="menu-link">
-<i class="menu-bullet menu-bullet-dot">
-<span></span>
-</i>
-<span class="menu-text">Group</span>
-</a>
-</li>
-<li class="menu-item" aria-haspopup="true">
-<a href="custom/apps/chat/popup.html" class="menu-link">
-<i class="menu-bullet menu-bullet-dot">
-<span></span>
-</i>
-<span class="menu-text">Popup</span>
-</a>
-</li>
-</ul>
-</div>
-</li>
-<li class="menu-item menu-item-submenu" aria-haspopup="true" data-menu-toggle="hover">
-<a href="javascript:;" class="menu-link menu-toggle">
-<i class="menu-bullet menu-bullet-line">
-<span></span>
-</i>
-<span class="menu-text">Todo</span>
-<i class="menu-arrow"></i>
-</a>
-<div class="menu-submenu">
-<i class="menu-arrow"></i>
-<ul class="menu-subnav">
-<li class="menu-item" aria-haspopup="true">
-<a href="custom/apps/todo/tasks.html" class="menu-link">
-<i class="menu-bullet menu-bullet-dot">
-<span></span>
-</i>
-<span class="menu-text">Tasks</span>
-</a>
-</li>
-<li class="menu-item" aria-haspopup="true">
-<a href="custom/apps/todo/docs.html" class="menu-link">
-<i class="menu-bullet menu-bullet-dot">
-<span></span>
-</i>
-<span class="menu-text">Docs</span>
-</a>
-</li>
-<li class="menu-item" aria-haspopup="true">
-<a href="custom/apps/todo/files.html" class="menu-link">
-<i class="menu-bullet menu-bullet-dot">
-<span></span>
-</i>
-<span class="menu-text">Files</span>
-</a>
-</li>
-</ul>
-</div>
-</li>
+
 <li class="menu-item" aria-haspopup="true">
 <a href="custom/apps/inbox.html" class="menu-link">
 <i class="menu-bullet menu-bullet-line">
@@ -603,6 +167,7 @@ License: You must have a valid license purchased only from themeforest(the above
 </ul>
 </div>
 </li>
+
 <li class="menu-item menu-item-submenu" aria-haspopup="true" data-menu-toggle="hover">
 <a href="javascript:;" class="menu-link menu-toggle">
 <span class="svg-icon menu-icon">
@@ -616,7 +181,7 @@ License: You must have a valid license purchased only from themeforest(the above
 </svg>
 <!--end::Svg Icon-->
 </span>
-<span class="menu-text">Pages</span>
+<span class="menu-text">Users</span>
 <i class="menu-arrow"></i>
 </a>
 <div class="menu-submenu">
@@ -624,262 +189,127 @@ License: You must have a valid license purchased only from themeforest(the above
 <ul class="menu-subnav">
 <li class="menu-item menu-item-parent" aria-haspopup="true">
 <span class="menu-link">
-<span class="menu-text">Pages</span>
+<span class="menu-text">Users</span>
 </span>
 </li>
+
 <li class="menu-item menu-item-submenu" aria-haspopup="true" data-menu-toggle="hover">
-<a href="javascript:;" class="menu-link menu-toggle">
+<a href="{{route('admin.users.index')}}" class="menu-link menu-toggle">
 <i class="menu-bullet menu-bullet-dot">
 <span></span>
 </i>
-<span class="menu-text">Wizard</span>
-<i class="menu-arrow"></i>
-</a>
-<div class="menu-submenu">
-<i class="menu-arrow"></i>
-<ul class="menu-subnav">
-<li class="menu-item" aria-haspopup="true">
-<a href="custom/pages/wizard/wizard-1.html" class="menu-link">
-<i class="menu-bullet menu-bullet-dot">
-<span></span>
-</i>
-<span class="menu-text">Wizard 1</span>
-</a>
-</li>
-<li class="menu-item" aria-haspopup="true">
-<a href="custom/pages/wizard/wizard-2.html" class="menu-link">
-<i class="menu-bullet menu-bullet-dot">
-<span></span>
-</i>
-<span class="menu-text">Wizard 2</span>
-</a>
-</li>
-<li class="menu-item" aria-haspopup="true">
-<a href="custom/pages/wizard/wizard-3.html" class="menu-link">
-<i class="menu-bullet menu-bullet-dot">
-<span></span>
-</i>
-<span class="menu-text">Wizard 3</span>
-</a>
-</li>
-<li class="menu-item" aria-haspopup="true">
-<a href="custom/pages/wizard/wizard-4.html" class="menu-link">
-<i class="menu-bullet menu-bullet-dot">
-<span></span>
-</i>
-<span class="menu-text">Wizard 4</span>
-</a>
-</li>
-</ul>
-</div>
-</li>
-<li class="menu-item menu-item-submenu" aria-haspopup="true" data-menu-toggle="hover">
-<a href="javascript:;" class="menu-link menu-toggle">
-<i class="menu-bullet menu-bullet-dot">
-<span></span>
-</i>
-<span class="menu-text">Pricing Tables</span>
-<i class="menu-arrow"></i>
-</a>
-<div class="menu-submenu">
-<i class="menu-arrow"></i>
-<ul class="menu-subnav">
-<li class="menu-item" aria-haspopup="true">
-<a href="custom/pages/pricing/pricing-1.html" class="menu-link">
-<i class="menu-bullet menu-bullet-dot">
-<span></span>
-</i>
-<span class="menu-text">Pricing Tables 1</span>
-</a>
-</li>
-<li class="menu-item" aria-haspopup="true">
-<a href="custom/pages/pricing/pricing-2.html" class="menu-link">
-<i class="menu-bullet menu-bullet-dot">
-<span></span>
-</i>
-<span class="menu-text">Pricing Tables 2</span>
-</a>
-</li>
-<li class="menu-item" aria-haspopup="true">
-<a href="custom/pages/pricing/pricing-3.html" class="menu-link">
-<i class="menu-bullet menu-bullet-dot">
-<span></span>
-</i>
-<span class="menu-text">Pricing Tables 3</span>
-</a>
-</li>
-<li class="menu-item" aria-haspopup="true">
-<a href="custom/pages/pricing/pricing-4.html" class="menu-link">
-<i class="menu-bullet menu-bullet-dot">
-<span></span>
-</i>
-<span class="menu-text">Pricing Tables 4</span>
-</a>
-</li>
-</ul>
-</div>
-</li>
-<li class="menu-item menu-item-submenu" aria-haspopup="true" data-menu-toggle="hover">
-<a href="javascript:;" class="menu-link menu-toggle">
-<i class="menu-bullet menu-bullet-dot">
-<span></span>
-</i>
-<span class="menu-text">Invoices</span>
-<i class="menu-arrow"></i>
-</a>
-<div class="menu-submenu">
-<i class="menu-arrow"></i>
-<ul class="menu-subnav">
-<li class="menu-item" aria-haspopup="true">
-<a href="custom/pages/invoices/invoice-1.html" class="menu-link">
-<i class="menu-bullet menu-bullet-dot">
-<span></span>
-</i>
-<span class="menu-text">Invoice 1</span>
-</a>
-</li>
-<li class="menu-item" aria-haspopup="true">
-<a href="custom/pages/invoices/invoice-2.html" class="menu-link">
-<i class="menu-bullet menu-bullet-dot">
-<span></span>
-</i>
-<span class="menu-text">Invoice 2</span>
-</a>
-</li>
-</ul>
-</div>
-</li>
-<li class="menu-item menu-item-submenu" aria-haspopup="true" data-menu-toggle="hover">
-<a href="javascript:;" class="menu-link menu-toggle">
-<i class="menu-bullet menu-bullet-dot">
-<span></span>
-</i>
-<span class="menu-text">User Pages</span>
+<span class="menu-text">All Users</span>
 <span class="menu-label">
 <span class="label label-rounded label-primary">2</span>
 </span>
-<i class="menu-arrow"></i>
 </a>
-<div class="menu-submenu">
-<i class="menu-arrow"></i>
-<ul class="menu-subnav">
-<li class="menu-item" aria-haspopup="true">
-<a href="custom/pages/users/login-1.html" class="menu-link">
-<i class="menu-bullet menu-bullet-dot">
-<span></span>
-</i>
-<span class="menu-text">Login 1</span>
-</a>
+
 </li>
-<li class="menu-item" aria-haspopup="true">
-<a href="custom/pages/users/login-2.html" class="menu-link">
-<i class="menu-bullet menu-bullet-dot">
-<span></span>
-</i>
-<span class="menu-text">Login 2</span>
-</a>
-</li>
-<li class="menu-item" aria-haspopup="true">
-<a href="custom/pages/users/login-3.html" class="menu-link">
-<i class="menu-bullet menu-bullet-dot">
-<span></span>
-</i>
-<span class="menu-text">Login 3</span>
-</a>
-</li>
-<li class="menu-item" aria-haspopup="true">
-<a href="custom/pages/users/login-4.html" class="menu-link">
-<i class="menu-bullet menu-bullet-dot">
-<span></span>
-</i>
-<span class="menu-text">Login 4</span>
-</a>
-</li>
-<li class="menu-item" aria-haspopup="true">
-<a href="custom/pages/users/login-5.html" class="menu-link">
-<i class="menu-bullet menu-bullet-dot">
-<span></span>
-</i>
-<span class="menu-text">Login 5</span>
-</a>
-</li>
-<li class="menu-item" aria-haspopup="true">
-<a href="custom/pages/users/login-6.html" class="menu-link">
-<i class="menu-bullet menu-bullet-dot">
-<span></span>
-</i>
-<span class="menu-text">Login 6</span>
-</a>
-</li>
-</ul>
-</div>
-</li>
+
 <li class="menu-item menu-item-submenu" aria-haspopup="true" data-menu-toggle="hover">
-<a href="javascript:;" class="menu-link menu-toggle">
+<a href="{{route('admin.users.create')}}" class="menu-link menu-toggle">
 <i class="menu-bullet menu-bullet-dot">
 <span></span>
 </i>
-<span class="menu-text">Error Pages</span>
-<i class="menu-arrow"></i>
+<span class="menu-text">Add Users</span>
+<span class="menu-label">
+</span>
 </a>
-<div class="menu-submenu">
-<i class="menu-arrow"></i>
-<ul class="menu-subnav">
-<li class="menu-item" aria-haspopup="true">
-<a href="custom/pages/errors/error-1.html" class="menu-link">
-<i class="menu-bullet menu-bullet-dot">
-<span></span>
-</i>
-<span class="menu-text">Error 1</span>
-</a>
+
 </li>
-<li class="menu-item" aria-haspopup="true">
-<a href="custom/pages/errors/error-2.html" class="menu-link">
-<i class="menu-bullet menu-bullet-dot">
-<span></span>
-</i>
-<span class="menu-text">Error 2</span>
-</a>
-</li>
-<li class="menu-item" aria-haspopup="true">
-<a href="custom/pages/errors/error-3.html" class="menu-link">
-<i class="menu-bullet menu-bullet-dot">
-<span></span>
-</i>
-<span class="menu-text">Error 3</span>
-</a>
-</li>
-<li class="menu-item" aria-haspopup="true">
-<a href="custom/pages/errors/error-4.html" class="menu-link">
-<i class="menu-bullet menu-bullet-dot">
-<span></span>
-</i>
-<span class="menu-text">Error 4</span>
-</a>
-</li>
-<li class="menu-item" aria-haspopup="true">
-<a href="custom/pages/errors/error-5.html" class="menu-link">
-<i class="menu-bullet menu-bullet-dot">
-<span></span>
-</i>
-<span class="menu-text">Error 5</span>
-</a>
-</li>
-<li class="menu-item" aria-haspopup="true">
-<a href="custom/pages/errors/error-6.html" class="menu-link">
-<i class="menu-bullet menu-bullet-dot">
-<span></span>
-</i>
-<span class="menu-text">Error 6</span>
-</a>
-</li>
-</ul>
-</div>
-</li>
+
+{{--<li class="menu-item menu-item-submenu" aria-haspopup="true" data-menu-toggle="hover">--}}
+{{--<a href="javascript:;" class="menu-link menu-toggle">--}}
+{{--<i class="menu-bullet menu-bullet-dot">--}}
+{{--<span></span>--}}
+{{--</i>--}}
+{{--<span class="menu-text">Error Pages</span>--}}
+{{--<i class="menu-arrow"></i>--}}
+{{--</a>--}}
+{{--<div class="menu-submenu">--}}
+{{--<i class="menu-arrow"></i>--}}
+{{--<ul class="menu-subnav">--}}
+{{--<li class="menu-item" aria-haspopup="true">--}}
+{{--<a href="custom/pages/errors/error-1.html" class="menu-link">--}}
+{{--<i class="menu-bullet menu-bullet-dot">--}}
+{{--<span></span>--}}
+{{--</i>--}}
+{{--<span class="menu-text">Error 1</span>--}}
+{{--</a>--}}
+{{--</li>--}}
+{{--<li class="menu-item" aria-haspopup="true">--}}
+{{--<a href="custom/pages/errors/error-2.html" class="menu-link">--}}
+{{--<i class="menu-bullet menu-bullet-dot">--}}
+{{--<span></span>--}}
+{{--</i>--}}
+{{--<span class="menu-text">Error 2</span>--}}
+{{--</a>--}}
+{{--</li>--}}
+
+
+{{--</ul>--}}
+{{--</div>--}}
+{{--</li>--}}
+
+
 </ul>
 </div>
 </li>
 
+{{--START Roles--}}
+<li class="menu-item menu-item-submenu" aria-haspopup="true" data-menu-toggle="hover">
+<a href="javascript:;" class="menu-link menu-toggle">
+<span class="svg-icon menu-icon">
+<!--begin::Svg Icon | path:dashboard_files/assets/media/svg/icons/Shopping/Barcode-read.svg-->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
+<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+<rect x="0" y="0" width="24" height="24" />
+<rect fill="#000000" opacity="0.3" x="4" y="4" width="8" height="16" />
+<path d="M6,18 L9,18 C9.66666667,18.1143819 10,18.4477153 10,19 C10,19.5522847 9.66666667,19.8856181 9,20 L4,20 L4,15 C4,14.3333333 4.33333333,14 5,14 C5.66666667,14 6,14.3333333 6,15 L6,18 Z M18,18 L18,15 C18.1143819,14.3333333 18.4477153,14 19,14 C19.5522847,14 19.8856181,14.3333333 20,15 L20,20 L15,20 C14.3333333,20 14,19.6666667 14,19 C14,18.3333333 14.3333333,18 15,18 L18,18 Z M18,6 L15,6 C14.3333333,5.88561808 14,5.55228475 14,5 C14,4.44771525 14.3333333,4.11438192 15,4 L20,4 L20,9 C20,9.66666667 19.6666667,10 19,10 C18.3333333,10 18,9.66666667 18,9 L18,6 Z M6,6 L6,9 C5.88561808,9.66666667 5.55228475,10 5,10 C4.44771525,10 4.11438192,9.66666667 4,9 L4,4 L9,4 C9.66666667,4 10,4.33333333 10,5 C10,5.66666667 9.66666667,6 9,6 L6,6 Z" fill="#000000" fill-rule="nonzero" />
+</g>
+</svg>
+<!--end::Svg Icon-->
+</span>
+<span class="menu-text">Roles</span>
+<i class="menu-arrow"></i>
+</a>
+<div class="menu-submenu">
+<i class="menu-arrow"></i>
+<ul class="menu-subnav">
+<li class="menu-item menu-item-parent" aria-haspopup="true">
+<span class="menu-link">
+<span class="menu-text">Roles</span>
+</span>
+</li>
+@can('permissions List')
+<li class="menu-item menu-item-submenu" aria-haspopup="true" data-menu-toggle="hover">
+<a href="{{route('admin.roles.index')}}" class="menu-link menu-toggle">
+<i class="menu-bullet menu-bullet-dot">
+<span></span>
+</i>
+<span class="menu-text">All Roles</span>
+<span class="menu-label">
+<span class="label label-rounded label-primary">2</span>
+</span>
+</a>
+</li>
+@endcan
+@can('Add permissions')
+<li class="menu-item menu-item-submenu" aria-haspopup="true" data-menu-toggle="hover">
+<a href="{{route('admin.roles.create')}}" class="menu-link menu-toggle">
+<i class="menu-bullet menu-bullet-dot">
+<span></span>
+</i>
+<span class="menu-text">Add Roles</span>
+<span class="menu-label">
+</span>
+</a>
+</li>
+@endcan
+</ul>
+</div>
+</li>
+{{--END Roles --}}
 {{--Side bar with feras --}}
 
 <li class="menu-section">
@@ -964,6 +394,7 @@ License: You must have a valid license purchased only from themeforest(the above
 </span>
 </li>
 
+@can('Tags List')
 <li class="menu-item" aria-haspopup="true">
 <a href="{{route('admin.tags.index')}}" class="menu-link">
 <i class="menu-bullet menu-bullet-dot">
@@ -972,7 +403,9 @@ License: You must have a valid license purchased only from themeforest(the above
 <span class="menu-text">All Tags</span>
 </a>
 </li>
+@endcan
 
+@can('Add Tags')
 <li class="menu-item" aria-haspopup="true">
 <a href="{{route('admin.tags.create')}}" class="menu-link">
 <i class="menu-bullet menu-bullet-dot">
@@ -981,11 +414,11 @@ License: You must have a valid license purchased only from themeforest(the above
 <span class="menu-text">Add Tags</span>
 </a>
 </li>
+@endcan
 
 </ul>
 </div>
 </li>
-
 {{-- END TAGS --}}
 
 {{-- START ARTICLES --}}
@@ -2376,7 +1809,7 @@ License: You must have a valid license purchased only from themeforest(the above
 <!--begin::Toggle-->
 <div class="topbar-item" data-toggle="dropdown" data-offset="10px,0px">
 <div class="btn btn-icon btn-clean btn-dropdown btn-lg mr-1">
-<img class="h-20px w-20px rounded-sm" src="dashboard_files/assets/media/svg/flags/226-united-states.svg" alt="" />
+<img class="h-20px w-20px rounded-sm" src="{{asset('dashboard_files/assets/media/svg/flags/226-united-states.svg')}}" alt="" />
 </div>
 </div>
 <!--end::Toggle-->
@@ -2388,41 +1821,14 @@ License: You must have a valid license purchased only from themeforest(the above
 <li class="navi-item">
 <a href="#" class="navi-link">
 <span class="symbol symbol-20 mr-3">
-<img src="dashboard_files/assets/media/svg/flags/226-united-states.svg" alt="" />
+<img src="{{asset('dashboard_files/assets/media/svg/flags/226-united-states.svg')}}" alt="" />
 </span>
 <span class="navi-text">English</span>
 </a>
 </li>
 <!--end::Item-->
 <!--begin::Item-->
-<li class="navi-item active">
-<a href="#" class="navi-link">
-<span class="symbol symbol-20 mr-3">
-<img src="dashboard_files/assets/media/svg/flags/128-spain.svg" alt="" />
-</span>
-<span class="navi-text">Spanish</span>
-</a>
-</li>
-<!--end::Item-->
-<!--begin::Item-->
-<li class="navi-item">
-<a href="#" class="navi-link">
-<span class="symbol symbol-20 mr-3">
-<img src="dashboard_files/assets/media/svg/flags/162-germany.svg" alt="" />
-</span>
-<span class="navi-text">German</span>
-</a>
-</li>
-<!--end::Item-->
-<!--begin::Item-->
-<li class="navi-item">
-<a href="#" class="navi-link">
-<span class="symbol symbol-20 mr-3">
-<img src="dashboard_files/assets/media/svg/flags/063-japan.svg" alt="" />
-</span>
-<span class="navi-text">Japanese</span>
-</a>
-</li>
+
 <!--end::Item-->
 <!--begin::Item-->
 <li class="navi-item">
@@ -2430,7 +1836,7 @@ License: You must have a valid license purchased only from themeforest(the above
 <span class="symbol symbol-20 mr-3">
 <img src="dashboard_files/assets/media/svg/flags/195-france.svg" alt="" />
 </span>
-<span class="navi-text">French</span>
+<span class="navi-text">Arabic</span>
 </a>
 </li>
 <!--end::Item-->

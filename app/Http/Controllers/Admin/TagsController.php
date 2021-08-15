@@ -10,6 +10,14 @@ use Illuminate\Http\Request;
 class TagsController extends Controller
 {
 
+    function __construct()
+    {
+        $this->middleware('permission:Tags List', ['only' => ['index']]);
+        $this->middleware('permission:Add Tags', ['only' => ['create','store']]);
+        $this->middleware('permission:Update Tags', ['only' => ['edit','update']]);
+        $this->middleware('permission:Delete Tags', ['only' => ['destroy']]);
+    }
+
     public function index()
     {
         $tags = Tag::paginate(5);
