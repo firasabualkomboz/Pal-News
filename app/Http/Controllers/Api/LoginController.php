@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\Api;
 
 use App\Http\Controllers\Controller;
+use App\Http\Requests\UserReqisterRequest;
 use App\Models\User;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
@@ -38,14 +39,18 @@ class LoginController extends Controller
         ], 401); //401 not auth
     }
 
-    public function register(Request $request)
-    {
-        $data = User::create([
-
-            'name'  => $request->name,
-            'email' => $request->email,
-            'password'  => $request->name,
-        ]);
+    public function register(UserReqisterRequest $request){
+        $user=new User();
+        $user->name=$request->name;
+        $user->email=$request->email;
+        $user->password=Hash::make($request->password);
+        $user->save();
+        $token=$user->createToken('access_token')->plainTextToken;
+        $respons=[
+            'user'=>$user,
+            'token'=>$token
+        ];
+        return $respons;
     }
 
     public function tokens()
@@ -53,5 +58,11 @@ class LoginController extends Controller
         $user = Auth::guard('sanctum')->user();
         return $user->tokens;
     }
+
+
+    public function logout(Request $request){
+        auth()->user()->tokens()->delete();
+    }
+
 
 }
