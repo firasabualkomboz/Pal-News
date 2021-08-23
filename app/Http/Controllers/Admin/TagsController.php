@@ -12,10 +12,11 @@ class TagsController extends Controller
 
     function __construct()
     {
-        $this->middleware('permission:Tags List', ['only' => ['index']]);
-        $this->middleware('permission:Add Tags', ['only' => ['create','store']]);
-        $this->middleware('permission:Update Tags', ['only' => ['edit','update']]);
-        $this->middleware('permission:Delete Tags', ['only' => ['destroy']]);
+
+        $this->middleware('permission:Tags-List|Add-Tags|Update-Tags|Delete-Tags', ['only' => ['index','store']]);
+        $this->middleware('permission:Add-Tags', ['only' => ['create','store']]);
+        $this->middleware('permission:Update-Tags', ['only' => ['edit','update']]);
+        $this->middleware('permission:Delete-Tags', ['only' => ['destroy']]);
     }
 
     public function index()

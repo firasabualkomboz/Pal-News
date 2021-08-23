@@ -13,6 +13,14 @@ use Illuminate\Support\Facades\Storage;
 class ArticlesController extends Controller
 {
 
+    // function __construct()
+    // {
+    //     $this->middleware('permission:Articles-List|Add-Articles|Update-Articles|Delete-Articles',['only'=>['index','show']]);
+    //     $this->middleware('permission:Add-Articles',['only'=>['create','store']]);
+    //     $this->middleware('permission:Update-Articles',['only'=>['edit','update']]);
+    //     $this->middleware('permission:Delete-Articles',['only'=>['destroy']]);
+    // }
+
     public function index()
     {
         $articles = Article::with('tags','category')

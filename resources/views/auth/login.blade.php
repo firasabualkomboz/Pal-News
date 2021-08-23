@@ -26,7 +26,7 @@
 
 <div class="mb-5">
 <span class="opacity-70 mr-4">Super Admin </span>
-<a  id="kt_login_signup" class="text-muted text-hover-primary font-weight-bold">feras@admin.com - 123456</a>
+<a  id="kt_login_signup" class="text-muted text-hover-primary font-weight-bold">admin@admin.com - 123456</a>
 </div>
 
 <div class="form-group mb-5">

@@ -12,12 +12,16 @@ class CategoriesController extends Controller
 
     public function index()
     {
-        return response()->json(Category::get(),200);
+        return Category::all();
     }
 
 
     public function store(Request $request)
     {
+        $request->validate([
+            'name' => 'required',
+        ]);
+
         $category = Category::create($request->all());
         return response()->json($category,201);
     }
@@ -31,6 +35,12 @@ class CategoriesController extends Controller
 
     public function update(Request $request, $id)
     {
+        $request->validate([
+
+            'name' => 'sometimes|required',
+
+        ]);
+
         $category = Category::findOrFail($id);
         $category->update($request->all());
         return response()->json($category,200);
@@ -39,11 +49,12 @@ class CategoriesController extends Controller
 
     public function destroy($id)
     {
-        $category = Category::findOrFail($id);
-        $category->delete();
+
+        Category::destroy($id);
 
         return Response::json ([
-            'message' => "post $id deleted"
+            'message' => "Category $id deleted"
         ]);
+
     }
 }

@@ -281,7 +281,7 @@ License: You must have a valid license purchased only from themeforest(the above
 <span class="menu-text">Roles</span>
 </span>
 </li>
-@can('permissions List')
+@can('role-list')
 <li class="menu-item menu-item-submenu" aria-haspopup="true" data-menu-toggle="hover">
 <a href="{{route('admin.roles.index')}}" class="menu-link menu-toggle">
 <i class="menu-bullet menu-bullet-dot">
@@ -294,7 +294,7 @@ License: You must have a valid license purchased only from themeforest(the above
 </a>
 </li>
 @endcan
-@can('Add permissions')
+@can('role-create')
 <li class="menu-item menu-item-submenu" aria-haspopup="true" data-menu-toggle="hover">
 <a href="{{route('admin.roles.create')}}" class="menu-link menu-toggle">
 <i class="menu-bullet menu-bullet-dot">
@@ -341,7 +341,7 @@ License: You must have a valid license purchased only from themeforest(the above
 <span class="menu-text">Themes</span>
 </span>
 </li>
-
+@can('Categories-List')
 <li class="menu-item" aria-haspopup="true">
 <a href="{{route('admin.categories.index')}}" class="menu-link">
 <i class="menu-bullet menu-bullet-dot">
@@ -350,7 +350,8 @@ License: You must have a valid license purchased only from themeforest(the above
 <span class="menu-text">All Categories</span>
 </a>
 </li>
-
+@endcan
+@can('Add-Categories')
 <li class="menu-item" aria-haspopup="true">
 <a href="{{route('admin.categories.create')}}" class="menu-link">
 <i class="menu-bullet menu-bullet-dot">
@@ -359,7 +360,7 @@ License: You must have a valid license purchased only from themeforest(the above
 <span class="menu-text">Add Categories</span>
 </a>
 </li>
-
+@endcan
 </ul>
 </div>
 </li>
@@ -394,7 +395,7 @@ License: You must have a valid license purchased only from themeforest(the above
 </span>
 </li>
 
-@can('Tags List')
+@can('Tags-List')
 <li class="menu-item" aria-haspopup="true">
 <a href="{{route('admin.tags.index')}}" class="menu-link">
 <i class="menu-bullet menu-bullet-dot">
@@ -405,7 +406,7 @@ License: You must have a valid license purchased only from themeforest(the above
 </li>
 @endcan
 
-@can('Add Tags')
+@can('Add-Tags')
 <li class="menu-item" aria-haspopup="true">
 <a href="{{route('admin.tags.create')}}" class="menu-link">
 <i class="menu-bullet menu-bullet-dot">
@@ -1850,7 +1851,7 @@ License: You must have a valid license purchased only from themeforest(the above
 <div class="topbar-item">
 <div class="btn btn-icon w-auto btn-clean d-flex align-items-center btn-lg px-2" id="kt_quick_user_toggle">
 <span class="text-muted font-weight-bold font-size-base d-none d-md-inline mr-1">Hi,</span>
-<span class="text-dark-50 font-weight-bolder font-size-base d-none d-md-inline mr-3">Sean</span>
+<span class="text-dark-50 font-weight-bolder font-size-base d-none d-md-inline mr-3">{{(Auth::user()->name)}}</span>
 <span class="symbol symbol-35 symbol-light-success">
 <span class="symbol-label font-size-h5 font-weight-bold">S</span>
 </span>
@@ -2052,7 +2053,7 @@ License: You must have a valid license purchased only from themeforest(the above
 <i class="symbol-badge bg-success"></i>
 </div>
 <div class="d-flex flex-column">
-<a href="#" class="font-weight-bold font-size-h5 text-dark-75 text-hover-primary">James Jones</a>
+<a href="#" class="font-weight-bold font-size-h5 text-dark-75 text-hover-primary">{{Auth::user()->name}}</a>
 <div class="text-muted mt-1">Application Developer</div>
 <div class="navi mt-2">
 <a href="#" class="navi-item">
@@ -2070,7 +2071,7 @@ License: You must have a valid license purchased only from themeforest(the above
 <!--end::Svg Icon-->
 </span>
 </span>
-<span class="navi-text text-muted text-hover-primary">jm@softplus.com</span>
+<span class="navi-text text-muted text-hover-primary">{{Auth::user()->email}}</span>
 </span>
 </a>
 </div>
@@ -3336,6 +3337,8 @@ License: You must have a valid license purchased only from themeforest(the above
 <!--begin::Page Scripts(used by this page)-->
 <script src="{{asset('dashboard_files/assets/js/pages/widgets.js')}}"></script>
 <script src="{{asset('dashboard_files/assets/js/pages/crud/ktdatatable/base/data-local.js')}}"></script>
+
+@include('sweetalert::alert')
 
 <!--end::Page Scripts-->
 </body>

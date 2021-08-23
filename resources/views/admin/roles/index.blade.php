@@ -67,18 +67,18 @@ type: "error"
 <td>{{ ++$i }}</td>
 <td>{{ $role->name }}</td>
 <td>
-@can('permissions List')
+@can('role-list')
 <a class="btn btn-success btn-sm"
 href="{{ route('admin.roles.show', $role->id) }}">Show</a>
 @endcan
 
-@can('Update permissions')
+@can('role-edit')
 <a class="btn btn-primary btn-sm"
 href="{{ route('admin.roles.edit', $role->id) }}">Update</a>
 @endcan
 
 @if ($role->name !== 'owner')
-@can('Delete permissions')
+@can('role-delete')
 {!! Form::open(['method' => 'DELETE', 'route' => ['admin.roles.destroy',
 $role->id], 'style' => 'display:inline']) !!}
 {!! Form::submit('Delete', ['class' => 'btn btn-danger btn-sm']) !!}

@@ -10,6 +10,15 @@ use Illuminate\Http\Request;
 class CategoriesController extends Controller
 {
 
+
+    public function __construct()
+    {
+        $this->middleware('permission:Categories-List|Add-Categories|Update-Categories|Delete-Categories', ['only' => ['index','store']]);
+        $this->middleware('permission:Add-Categories', ['only' => ['create','store']]);
+        $this->middleware('permission:update-Categories', ['only' => ['edit','update']]);
+        $this->middleware('permission:Delete-Categories', ['only' => ['destroy']]);
+    }
+
     public function index()
     {
         $categories = Category::paginate(5);
@@ -27,15 +36,25 @@ class CategoriesController extends Controller
 
     public function store(CategoryRequest $request)
     {
+        try{
 
-        $categories = Category::create([
+            $categories = Category::create([
 
-            'name' => $request->post('name'),
+                'name' => $request->post('name'),
 
-        ]);
+            ]);
+            // return redirect()->route('admin.categories.index')
+            // ->with('success','The Section Has Been Added Successfully');
+            return redirect()->back()
+            ->with('success','The Section Has Been Added Successfully');
 
-        return redirect()->route('admin.categories.index')
-        ->with('success','The Section Has Been Added Successfully');
+            } catch (\Exception $e)
+            {
+                return redirect()->back()
+                ->with('error','The Section Not Added');
+            }
+        
+
     }
 
 
