@@ -336,6 +336,7 @@ License: You must have a valid license purchased only from themeforest(the above
 <h4 class="menu-text">Content Dashboard</h4>
 <i class="menu-icon ki ki-bold-more-hor icon-md"></i>
 </li>
+
 <li class="menu-item menu-item-submenu" aria-haspopup="true" data-menu-toggle="hover">
 <a href="javascript:;" class="menu-link menu-toggle">
 <span class="svg-icon menu-icon">
@@ -384,6 +385,7 @@ License: You must have a valid license purchased only from themeforest(the above
 </ul>
 </div>
 </li>
+
 
 {{--end side bar with feras--}}
 
@@ -469,6 +471,7 @@ License: You must have a valid license purchased only from themeforest(the above
 </span>
 </li>
 
+@can('Articles-List')
 <li class="menu-item" aria-haspopup="true">
 <a href="{{route('admin.articles.index')}}" class="menu-link">
 <i class="menu-bullet menu-bullet-dot">
@@ -477,7 +480,9 @@ License: You must have a valid license purchased only from themeforest(the above
 <span class="menu-text">All Articles</span>
 </a>
 </li>
+@endcan
 
+@can('Add-Articles')
 <li class="menu-item" aria-haspopup="true">
 <a href="{{route('admin.articles.create')}}" class="menu-link">
 <i class="menu-bullet menu-bullet-dot">
@@ -486,7 +491,7 @@ License: You must have a valid license purchased only from themeforest(the above
 <span class="menu-text">Add Articles</span>
 </a>
 </li>
-
+@endcan
 </ul>
 </div>
 </li>
@@ -2033,7 +2038,7 @@ License: You must have a valid license purchased only from themeforest(the above
 <!--begin::Copyright-->
 <div class="text-dark order-2 order-md-1">
 <span class="text-muted font-weight-bold mr-2">2021©</span>
-<a href="http://keenthemes.com/metronic" target="_blank" class="text-dark-75 text-hover-primary">PAL News</a>
+<a href="/" target="_blank" class="text-dark-75 text-hover-primary">PAL News</a>
 </div>
 <!--end::Copyright-->
 <!--begin::Nav-->

@@ -18,16 +18,12 @@
 <!--begin::Title-->
 <div class="d-flex flex-column">
 <a href="#" class="text-dark font-weight-bold text-hover-primary font-size-h4 mb-0">{{$user->name}}</a>
-<span class="text-muted font-weight-bold">Atr Direcrtor</span>
+<span class="text-muted font-weight-bold">{{$user->email}}</span>
 </div>
 <!--end::Title-->
 </div>
 
 <div class="mb-7">
-<div class="d-flex justify-content-between align-items-center">
-<span class="text-dark-75 font-weight-bolder mr-2">Email:</span>
-<a href="#" class="text-muted text-hover-primary">{{$user->email}}</a>
-</div>
 <div class="d-flex justify-content-between align-items-center my-1">
 <span class="text-dark-75 font-weight-bolder mr-2">Status</span>
 <a href="#" class="text-muted text-hover-primary">

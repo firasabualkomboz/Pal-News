@@ -72,10 +72,8 @@ type: "error"
 href="{{ route('admin.roles.show', $role->id) }}">Show</a>
 @endcan
 
-@can('role-edit')
 <a class="btn btn-primary btn-sm"
 href="{{ route('admin.roles.edit', $role->id) }}">Update</a>
-@endcan
 
 @if ($role->name !== 'owner')
 @can('role-delete')

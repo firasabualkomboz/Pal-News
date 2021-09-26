@@ -52,12 +52,6 @@ Route::group([], function (){
             Route::resource('roles','\App\Http\Controllers\Admin\RolesController');
             Route::resource('users','\App\Http\Controllers\Admin\UsersController');
 
-            // Route::group(['middleware' => ['auth']], function() {
-
-            //     Route::resource('roles','\App\Http\Controllers\Admin\RolesController');
-            //     Route::resource('users','\App\Http\Controllers\Admin\UsersController');
-
-            // });
 
 
         });
