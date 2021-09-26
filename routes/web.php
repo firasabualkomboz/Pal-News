@@ -17,6 +17,12 @@ use RealRashid\SweetAlert\Facades\Alert;
 
 Auth::routes(['register' => false]);
 
+Route::get('/', function () {
+
+    return "this is test" ;
+
+});
+
 Route::get('/admin', function () {
     toast('Success Toast', 'Success Message');
     return view('layouts.admin');
