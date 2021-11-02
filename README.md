@@ -23,7 +23,7 @@
 ### Note : The project/website is divided into three sections: 
 
 * Dashboard Admin and Users or Members . 
-* User Pages - display data in for a admin dashboard to user page .
+* User Pages : display data from dashboard to user page .
 * apis to mobile developer .
 
 
