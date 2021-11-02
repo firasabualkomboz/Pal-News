@@ -36,9 +36,7 @@ class CategoriesController extends Controller
     public function update(Request $request, $id)
     {
         $request->validate([
-
             'name' => 'sometimes|required',
-
         ]);
 
         $category = Category::findOrFail($id);

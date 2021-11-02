@@ -13,3 +13,7 @@
 #### Some of the additions used in the development of the Project : 
 
 * Creating Alert Actions
+
+## Website Idea
+
+* This website is a display of publications and at the same time it can be used as a news website or as a site to display articles as needed, where the site owner can enter the panel and add more than one user and control their powers.

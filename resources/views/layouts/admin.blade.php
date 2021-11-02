@@ -115,7 +115,7 @@ License: You must have a valid license purchased only from themeforest(the above
 <!--begin::Menu Nav-->
 <ul class="menu-nav">
 <li class="menu-item menu-item-active" aria-haspopup="true">
-<a href="index.html" class="menu-link">
+<a href="#" class="menu-link">
 <span class="svg-icon menu-icon">
 <!--begin::Svg Icon | path:dashboard_files/assets/media/svg/icons/Design/Layers.svg-->
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
@@ -187,6 +187,11 @@ License: You must have a valid license purchased only from themeforest(the above
     </a>
     </li>
 
+
+    <li class="menu-section">
+        <h4 class="menu-text">permissions</h4>
+        <i class="menu-icon ki ki-bold-more-hor icon-md"></i>
+    </li>
 
 <li class="menu-item menu-item-submenu" aria-haspopup="true" data-menu-toggle="hover">
 <a href="javascript:;" class="menu-link menu-toggle">
