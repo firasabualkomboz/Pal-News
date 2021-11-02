@@ -19,3 +19,11 @@
 * This website is a display of publications and at the same time it can be used as a news website or as a site to display articles as needed, where the site owner can enter the panel and add more than one user and control their powers.
 
 * As I mentioned earlier, the site contains a special control panel, and the administrator can manage the entire website through it. I will now explain the divisions of the website in general.
+
+### Note : The project/website is divided into three sections: 
+
+* Dashboard Admin and Users or Members . 
+* User Pages - display data in for a admin dashboard to user page .
+* apis to mobile developer .
+
+
