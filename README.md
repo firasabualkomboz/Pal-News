@@ -27,3 +27,16 @@
 * apis to mobile developer .
 
 
+## tools and language 
+
+* html 
+* css
+* java script and jquery
+* bootstrap 
+* php
+* mysql
+* laravel 
+* rest api
+* api sanctum 
+* postman 
+* git github 
