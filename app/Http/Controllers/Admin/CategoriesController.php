@@ -38,22 +38,21 @@ class CategoriesController extends Controller
     {
         try{
 
-            $categories = Category::create([
+        $categories = Category::create([
 
-                'name' => $request->post('name'),
+        'name' => $request->post('name'),
 
-            ]);
-            // return redirect()->route('admin.categories.index')
-            // ->with('success','The Section Has Been Added Successfully');
-            return redirect()->back()
-            ->with('success','The Section Has Been Added Successfully');
+        ]);
+        return redirect()->route('admin.categories.index')->with('success','The Section Has Been Added Successfully');
+        return redirect()->back()
+        ->with('success','The Section Has Been Added Successfully');
 
-            } catch (\Exception $e)
-            {
-                return redirect()->back()
-                ->with('error','The Section Not Added');
-            }
-        
+        } catch (\Exception $e)
+        {
+        return redirect()->back()
+        ->with('error','The Section Not Added');
+        }
+
 
     }
 
