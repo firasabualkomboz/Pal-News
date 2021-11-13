@@ -40,7 +40,7 @@
 <td>{{$tag->tag}}</td>
 <td>
 <a href="{{route('admin.tags.edit',[$tag->id])}}" class="btn btn-sm btn-clean btn-icon mr-2" title="Edit details">
-<button class="btn btn-sm btn-success">Edit</button>
+<button class="btn btn-sm btn-warning">Edit</button>
 </a>
 <form action="{{route('admin.tags.destroy',[$tag->id])}}" method="post" style="display: inline-block">
 @csrf
