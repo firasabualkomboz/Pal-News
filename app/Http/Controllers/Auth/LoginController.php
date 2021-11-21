@@ -44,7 +44,7 @@ class LoginController extends Controller
 
             'email'    => $request->email,
             'password' => $request->password,
-            'status'   => 'active'
+            // 'status'   => 'active'
 
         ];
     }

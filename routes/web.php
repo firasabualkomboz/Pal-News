@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\Api\NewsApiController;
+use App\Http\Controllers\Front\HomeController;
 use Illuminate\Support\Facades\Route;
 use RealRashid\SweetAlert\Facades\Alert;
 
@@ -15,13 +16,9 @@ use RealRashid\SweetAlert\Facades\Alert;
 |
 */
 
-Auth::routes(['register' => false]);
+Auth::routes(['register' => true]);
 
-Route::get('/', function () {
-
-    return "this is test" ;
-
-});
+Route::get('/',[HomeController::class,'index']);
 
 Route::get('/admin', function () {
     toast('Success Toast', 'Success Message');
@@ -40,18 +37,9 @@ Route::group([], function (){
             Route::get('/', function () {return view('admin.index');});
 
             Route::resource('/categories',\App\Http\Controllers\Admin\CategoriesController::class);
-            Route::resource('/tags',\App\Http\Controllers\Admin\TagsController::class);
             Route::resource('/articles',\App\Http\Controllers\Admin\ArticlesController::class);
 
-            Route::resource('/api/news', NewsApiController::class);
-
-
             Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
-
-
-            Route::resource('roles','\App\Http\Controllers\Admin\RolesController');
-            Route::resource('users','\App\Http\Controllers\Admin\UsersController');
-
 
 
         });

@@ -11,13 +11,7 @@ class CategoriesController extends Controller
 {
 
 
-    public function __construct()
-    {
-        $this->middleware('permission:Categories-List|Add-Categories|Update-Categories|Delete-Categories', ['only' => ['index','store']]);
-        $this->middleware('permission:Add-Categories', ['only' => ['create','store']]);
-        $this->middleware('permission:update-Categories', ['only' => ['edit','update']]);
-        $this->middleware('permission:Delete-Categories', ['only' => ['destroy']]);
-    }
+
 
     public function index()
     {
@@ -43,14 +37,13 @@ class CategoriesController extends Controller
         'name' => $request->post('name'),
 
         ]);
-        return redirect()->route('admin.categories.index')->with('success','The Section Has Been Added Successfully');
-        return redirect()->back()
-        ->with('success','The Section Has Been Added Successfully');
+        toastr()->success('The Category Has Been Added Successfully');
+        return redirect()->route('admin.categories.index');
 
         } catch (\Exception $e)
         {
-        return redirect()->back()
-        ->with('error','The Section Not Added');
+        toastr()->error('The Section Not Added');
+        return redirect()->back();
         }
 
 
@@ -80,8 +73,8 @@ class CategoriesController extends Controller
 
         $category->save();
 
-        return redirect()->route('admin.categories.index')
-        ->with('success','The Category Has Been Updated Successfully');
+        toastr()->error('The Category Has Been Updated Successfully');
+        return redirect()->route('admin.categories.index');
     }
 
 
@@ -89,9 +82,8 @@ class CategoriesController extends Controller
     {
         $catgory = Category::findOrFail($id);
         $catgory->delete();
-
-        return redirect()->route('admin.categories.index')
-        ->with('success','The Category Has Been Deleted Successfully');
+        toastr()->error('The Category Has Been Deleted Successfully');
+        return redirect()->route('admin.categories.index');
 
     }
 }

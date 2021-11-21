@@ -17,11 +17,6 @@ class Article extends Model
         return $this->belongsTo(Category::class);
     }
 
-    public function tags()
-    {
-        return $this->belongsToMany(Tag::class ,'article_tag' , 'article_id','tag_id','id','id')
-        ->withPivot('article_id','tag_id');
-    }
 
     public function getPhotoUrlAttribute()
     {
