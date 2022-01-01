@@ -42,21 +42,6 @@ Edit articles
 </div>
 
 <div class="form-group">
-<label>Article Tags</label>
-<div class="checkbox-inline">
-@foreach($tags as $tag)
-<label class="checkbox">
-<input type="checkbox" value="{{$tag->id}}" name="tag[]"  @if (in_array($tag->id , $article_tag))checked @endif />
-<span></span>
-{{$tag->tag}}
-</label>
-@endforeach
-
-</div>
-</div>
-
-
-<div class="form-group">
 <label>Article Photo</label>
 <div></div>
 <div class="custom-file">

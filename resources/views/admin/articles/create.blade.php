@@ -45,19 +45,6 @@ Add articles
 </select>
 </div>
 
-<div class="form-group">
-<label>Article Tags</label>
-<div class="checkbox-inline">
-@foreach($tags as $tag)
-<label class="checkbox">
-<input type="checkbox" value="{{$tag->id}}" name="tag[]"/>
-<span></span>
-{{$tag->tag}}
-</label>
-@endforeach
-
-</div>
-</div>
 
 
 <div class="form-group">

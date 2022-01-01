@@ -24,7 +24,7 @@
 <th scope="col">#</th>
 <th>Title</th>
 <th>Content</th>
-<th>Tags</th>
+<th>Ratings</th>
 <th>Photo</th>
 <th>ACTIONS</th>
 </tr>
@@ -36,7 +36,7 @@
 <td>{{$loop->index}}</td>
 <td>{{$article->title}}</td>
 <td>{{$article->content}}</td>
-<td>@foreach($article->tags as $tag) <span class="btn btn-sm btn-outline-primary"> {{$tag->tag}} </span> @endforeach </td>
+<td># </td>
 <td><img height="60" src="{{$article->PhotoUrl}}" alt=""></td>
 <td>
 <a href="{{route('admin.articles.edit',[$article->id])}}" class="btn btn-sm btn-clean btn-icon mr-2" title="Edit details">

@@ -2,7 +2,7 @@
 <!--begin::Head-->
 <head><base href="">
 <meta charset="utf-8" />
-<title>Pal News | Dashboard</title>
+<title>Stars Stor | Dashboard</title>
 <meta name="description" content="Updates and statistics" />
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 <!--begin::Fonts-->
@@ -77,8 +77,8 @@
 <!--begin::Brand-->
 <div class="brand flex-column-auto" id="kt_brand">
 <!--begin::Logo-->
-<a href="index.html" class="brand-logo">
-    <h4>Click</h4>
+<a href="#" class="brand-logo">
+<h4>Click</h4>
 {{-- <img alt="Logo" src="dashboard_files/assets/media/logos/logo-light.png" /> --}}
 </a>
 <!--end::Logo-->
@@ -118,124 +118,10 @@
 </svg>
 <!--end::Svg Icon-->
 </span>
-<span class="menu-text">Dashboard - Pal News </span>
-</a>
-</li>
-<li class="menu-section">
-<h4 class="menu-text">Custom</h4>
-<i class="menu-icon ki ki-bold-more-hor icon-md"></i>
-</li>
-<li class="menu-item menu-item-submenu" aria-haspopup="true" data-menu-toggle="hover">
-<a href="javascript:;" class="menu-link menu-toggle">
-<span class="svg-icon menu-icon">
-<!--begin::Svg Icon | path:dashboard_files/assets/media/svg/icons/Layout/Layout-4-blocks.svg-->
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
-<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-<rect x="0" y="0" width="24" height="24" />
-<rect fill="#000000" x="4" y="4" width="7" height="7" rx="1.5" />
-<path d="M5.5,13 L9.5,13 C10.3284271,13 11,13.6715729 11,14.5 L11,18.5 C11,19.3284271 10.3284271,20 9.5,20 L5.5,20 C4.67157288,20 4,19.3284271 4,18.5 L4,14.5 C4,13.6715729 4.67157288,13 5.5,13 Z M14.5,4 L18.5,4 C19.3284271,4 20,4.67157288 20,5.5 L20,9.5 C20,10.3284271 19.3284271,11 18.5,11 L14.5,11 C13.6715729,11 13,10.3284271 13,9.5 L13,5.5 C13,4.67157288 13.6715729,4 14.5,4 Z M14.5,13 L18.5,13 C19.3284271,13 20,13.6715729 20,14.5 L20,18.5 C20,19.3284271 19.3284271,20 18.5,20 L14.5,20 C13.6715729,20 13,19.3284271 13,18.5 L13,14.5 C13,13.6715729 13.6715729,13 14.5,13 Z" fill="#000000" opacity="0.3" />
-</g>
-</svg>
-<!--end::Svg Icon-->
-</span>
-<span class="menu-text">General Settings</span>
+<span class="menu-text">Dashboard - Stars Stor </span>
 </a>
 
-</li>
-
-<li class="menu-section">
-<h4 class="menu-text">permissions</h4>
-<i class="menu-icon ki ki-bold-more-hor icon-md"></i>
-</li>
-
-<li class="menu-item menu-item-submenu" aria-haspopup="true" data-menu-toggle="hover">
-<a href="javascript:;" class="menu-link menu-toggle">
-<span class="svg-icon menu-icon">
-<!--begin::Svg Icon | path:dashboard_files/assets/media/svg/icons/Shopping/Barcode-read.svg-->
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
-<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-<rect x="0" y="0" width="24" height="24" />
-<rect fill="#000000" opacity="0.3" x="4" y="4" width="8" height="16" />
-<path d="M6,18 L9,18 C9.66666667,18.1143819 10,18.4477153 10,19 C10,19.5522847 9.66666667,19.8856181 9,20 L4,20 L4,15 C4,14.3333333 4.33333333,14 5,14 C5.66666667,14 6,14.3333333 6,15 L6,18 Z M18,18 L18,15 C18.1143819,14.3333333 18.4477153,14 19,14 C19.5522847,14 19.8856181,14.3333333 20,15 L20,20 L15,20 C14.3333333,20 14,19.6666667 14,19 C14,18.3333333 14.3333333,18 15,18 L18,18 Z M18,6 L15,6 C14.3333333,5.88561808 14,5.55228475 14,5 C14,4.44771525 14.3333333,4.11438192 15,4 L20,4 L20,9 C20,9.66666667 19.6666667,10 19,10 C18.3333333,10 18,9.66666667 18,9 L18,6 Z M6,6 L6,9 C5.88561808,9.66666667 5.55228475,10 5,10 C4.44771525,10 4.11438192,9.66666667 4,9 L4,4 L9,4 C9.66666667,4 10,4.33333333 10,5 C10,5.66666667 9.66666667,6 9,6 L6,6 Z" fill="#000000" fill-rule="nonzero" />
-</g>
-</svg>
-<!--end::Svg Icon-->
-</span>
-<span class="menu-text">Users</span>
-<i class="menu-arrow"></i>
-</a>
-<div class="menu-submenu">
-<i class="menu-arrow"></i>
-<ul class="menu-subnav">
-<li class="menu-item menu-item-parent" aria-haspopup="true">
-<span class="menu-link">
-<span class="menu-text">Users</span>
-</span>
-</li>
-
-<li class="menu-item menu-item-submenu" aria-haspopup="true" data-menu-toggle="hover">
-<a href="{{route('admin.users.index')}}" class="menu-link menu-toggle">
-<i class="menu-bullet menu-bullet-dot">
-<span></span>
-</i>
-<span class="menu-text">All Users</span>
-<span class="menu-label">
-<span class="label label-rounded label-primary">2</span>
-</span>
-</a>
-
-</li>
-
-<li class="menu-item menu-item-submenu" aria-haspopup="true" data-menu-toggle="hover">
-<a href="{{route('admin.users.create')}}" class="menu-link menu-toggle">
-<i class="menu-bullet menu-bullet-dot">
-<span></span>
-</i>
-<span class="menu-text">Add Users</span>
-<span class="menu-label">
-</span>
-</a>
-
-</li>
-
-{{--<li class="menu-item menu-item-submenu" aria-haspopup="true" data-menu-toggle="hover">--}}
-{{--<a href="javascript:;" class="menu-link menu-toggle">--}}
-{{--<i class="menu-bullet menu-bullet-dot">--}}
-{{--<span></span>--}}
-{{--</i>--}}
-{{--<span class="menu-text">Error Pages</span>--}}
-{{--<i class="menu-arrow"></i>--}}
-{{--</a>--}}
-{{--<div class="menu-submenu">--}}
-{{--<i class="menu-arrow"></i>--}}
-{{--<ul class="menu-subnav">--}}
-{{--<li class="menu-item" aria-haspopup="true">--}}
-{{--<a href="custom/pages/errors/error-1.html" class="menu-link">--}}
-{{--<i class="menu-bullet menu-bullet-dot">--}}
-{{--<span></span>--}}
-{{--</i>--}}
-{{--<span class="menu-text">Error 1</span>--}}
-{{--</a>--}}
-{{--</li>--}}
-{{--<li class="menu-item" aria-haspopup="true">--}}
-{{--<a href="custom/pages/errors/error-2.html" class="menu-link">--}}
-{{--<i class="menu-bullet menu-bullet-dot">--}}
-{{--<span></span>--}}
-{{--</i>--}}
-{{--<span class="menu-text">Error 2</span>--}}
-{{--</a>--}}
-{{--</li>--}}
-
-
-{{--</ul>--}}
-{{--</div>--}}
-{{--</li>--}}
-
-
-</ul>
-</div>
-</li>
-
+<<<<<<< HEAD
 {{--START Roles--}}
 <li class="menu-item menu-item-submenu" aria-haspopup="true" data-menu-toggle="hover">
 <a href="javascript:;" class="menu-link menu-toggle">
@@ -290,15 +176,18 @@
 </div>
 </li>
 {{--END Roles --}}
+=======
+</li>
+>>>>>>> 0dc4c587d230efb494f9da38233a79532711f1cf
 {{--Side bar with feras --}}
 
 <li class="menu-section">
-<h4 class="menu-text">Content Dashboard</h4>
+<h4 class="menu-text">Items</h4>
 <i class="menu-icon ki ki-bold-more-hor icon-md"></i>
 </li>
 
 <li class="menu-item menu-item-submenu" aria-haspopup="true" data-menu-toggle="hover">
-<a href="javascript:;" class="menu-link menu-toggle">
+<a href="{{route('admin.categories.index')}}" class="menu-link menu-toggle">
 <span class="svg-icon menu-icon">
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
 <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -313,166 +202,13 @@
 <span class="menu-text">Categories</span>
 <i class="menu-arrow"></i>
 </a>
-<div class="menu-submenu">
-<i class="menu-arrow"></i>
-<ul class="menu-subnav">
 
-<li class="menu-item menu-item-parent" aria-haspopup="true">
-<span class="menu-link">
-<span class="menu-text">Themes</span>
-</span>
-</li>
-@can('Categories-List')
-<li class="menu-item" aria-haspopup="true">
-<a href="{{route('admin.categories.index')}}" class="menu-link">
-<i class="menu-bullet menu-bullet-dot">
-<span></span>
-</i>
-<span class="menu-text">All Categories</span>
-</a>
-</li>
-@endcan
-@can('Add-Categories')
-<li class="menu-item" aria-haspopup="true">
-<a href="{{route('admin.categories.create')}}" class="menu-link">
-<i class="menu-bullet menu-bullet-dot">
-<span></span>
-</i>
-<span class="menu-text">Add Categories</span>
-</a>
-</li>
-@endcan
-</ul>
-</div>
-</li>
 
+</li>
 
 {{--end side bar with feras--}}
 
-
-{{-- START TAGS --}}
-<li class="menu-item menu-item-submenu" aria-haspopup="true" data-menu-toggle="hover">
-<a href="javascript:;" class="menu-link menu-toggle">
-<span class="svg-icon menu-icon">
-<!--begin::Svg Icon | path:dashboard_files/assets/media/svg/icons/Design/Bucket.svg-->
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
-<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-<rect x="0" y="0" width="24" height="24" />
-<path d="M5,5 L5,15 C5,15.5948613 5.25970314,16.1290656 5.6719139,16.4954176 C5.71978107,16.5379595 5.76682388,16.5788906 5.81365532,16.6178662 C5.82524933,16.6294602 15,7.45470952 15,7.45470952 C15,6.9962515 15,6.17801499 15,5 L5,5 Z M5,3 L15,3 C16.1045695,3 17,3.8954305 17,5 L17,15 C17,17.209139 15.209139,19 13,19 L7,19 C4.790861,19 3,17.209139 3,15 L3,5 C3,3.8954305 3.8954305,3 5,3 Z" fill="#000000" fill-rule="nonzero" transform="translate(10.000000, 11.000000) rotate(-315.000000) translate(-10.000000, -11.000000)" />
-<path d="M20,22 C21.6568542,22 23,20.6568542 23,19 C23,17.8954305 22,16.2287638 20,14 C18,16.2287638 17,17.8954305 17,19 C17,20.6568542 18.3431458,22 20,22 Z" fill="#000000" opacity="0.3" />
-</g>
-</svg>
-<!--end::Svg Icon-->
-</span>
-<span class="menu-text">Tags</span>
-<i class="menu-arrow"></i>
-</a>
-<div class="menu-submenu">
-<i class="menu-arrow"></i>
-<ul class="menu-subnav">
-
-<li class="menu-item menu-item-parent" aria-haspopup="true">
-<span class="menu-link">
-<span class="menu-text">Themes</span>
-</span>
-</li>
-
-@can('Tags-List')
-<li class="menu-item" aria-haspopup="true">
-<a href="{{route('admin.tags.index')}}" class="menu-link">
-<i class="menu-bullet menu-bullet-dot">
-<span></span>
-</i>
-<span class="menu-text">All Tags</span>
-</a>
-</li>
-@endcan
-
-@can('Add-Tags')
-<li class="menu-item" aria-haspopup="true">
-<a href="{{route('admin.tags.create')}}" class="menu-link">
-<i class="menu-bullet menu-bullet-dot">
-<span></span>
-</i>
-<span class="menu-text">Add Tags</span>
-</a>
-</li>
-@endcan
-
-</ul>
-</div>
-</li>
-{{-- END TAGS --}}
-
-{{-- START ARTICLES --}}
-<li class="menu-item menu-item-submenu" aria-haspopup="true" data-menu-toggle="hover">
-<a href="javascript:;" class="menu-link menu-toggle">
-<span class="svg-icon menu-icon">
-<!--begin::Svg Icon | path:dashboard_files/assets/media/svg/icons/Design/Bucket.svg-->
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
-<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-<rect x="0" y="0" width="24" height="24" />
-<path d="M5,5 L5,15 C5,15.5948613 5.25970314,16.1290656 5.6719139,16.4954176 C5.71978107,16.5379595 5.76682388,16.5788906 5.81365532,16.6178662 C5.82524933,16.6294602 15,7.45470952 15,7.45470952 C15,6.9962515 15,6.17801499 15,5 L5,5 Z M5,3 L15,3 C16.1045695,3 17,3.8954305 17,5 L17,15 C17,17.209139 15.209139,19 13,19 L7,19 C4.790861,19 3,17.209139 3,15 L3,5 C3,3.8954305 3.8954305,3 5,3 Z" fill="#000000" fill-rule="nonzero" transform="translate(10.000000, 11.000000) rotate(-315.000000) translate(-10.000000, -11.000000)" />
-<path d="M20,22 C21.6568542,22 23,20.6568542 23,19 C23,17.8954305 22,16.2287638 20,14 C18,16.2287638 17,17.8954305 17,19 C17,20.6568542 18.3431458,22 20,22 Z" fill="#000000" opacity="0.3" />
-</g>
-</svg>
-<!--end::Svg Icon-->
-</span>
-<span class="menu-text">Articles</span>
-<i class="menu-arrow"></i>
-</a>
-<div class="menu-submenu">
-<i class="menu-arrow"></i>
-<ul class="menu-subnav">
-
-<li class="menu-item menu-item-parent" aria-haspopup="true">
-<span class="menu-link">
-<span class="menu-text">Themes</span>
-</span>
-</li>
-
-@can('Articles-List')
-<li class="menu-item" aria-haspopup="true">
-<a href="{{route('admin.articles.index')}}" class="menu-link">
-<i class="menu-bullet menu-bullet-dot">
-<span></span>
-</i>
-<span class="menu-text">All Articles</span>
-</a>
-</li>
-@endcan
-
-@can('Add-Articles')
-<li class="menu-item" aria-haspopup="true">
-<a href="{{route('admin.articles.create')}}" class="menu-link">
-<i class="menu-bullet menu-bullet-dot">
-<span></span>
-</i>
-<span class="menu-text">Add Articles</span>
-</a>
-</li>
-@endcan
-</ul>
-</div>
-</li>
-
-{{-- END ARTICLES --}}
-
-
-</ul>
-<!--end::Menu Nav-->
-</div>
-<!--end::Menu Container-->
-</div>
-<!--end::Aside Menu-->
-</div>
-<!--end::Aside-->
-<!--begin::Wrapper-->
-<div class="d-flex flex-column flex-row-fluid wrapper" id="kt_wrapper">
-<!--begin::Header-->
-<div id="kt_header" class="header header-fixed">
-<!--begin::Container-->
-
+<<<<<<< HEAD
 <div class="container-fluid d-flex align-items-stretch justify-content-between">
 <!--begin::Header Menu Wrapper-->
 <div class="header-menu-wrapper header-menu-wrapper-left" id="kt_header_menu_wrapper">
@@ -2659,200 +2395,240 @@ Employers
 <div class="font-weight-bold font-size-lg">2 new items have been submited</div>
 <div class="text-muted">by Grog John</div>
 </div>
+=======
+<li class="menu-item menu-item-submenu" aria-haspopup="true" data-menu-toggle="hover">
+    <a href="{{route('admin.articles.index')}}" class="menu-link menu-toggle">
+    <span class="svg-icon menu-icon">
+    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+    <rect x="0" y="0" width="24" height="24" />
+    <path d="M5,5 L5,15 C5,15.5948613 5.25970314,16.1290656 5.6719139,16.4954176 C5.71978107,16.5379595 5.76682388,16.5788906 5.81365532,16.6178662 C5.82524933,16.6294602 15,7.45470952 15,7.45470952 C15,6.9962515 15,6.17801499 15,5 L5,5 Z M5,3 L15,3 C16.1045695,3 17,3.8954305 17,5 L17,15 C17,17.209139 15.209139,19 13,19 L7,19 C4.790861,19 3,17.209139 3,15 L3,5 C3,3.8954305 3.8954305,3 5,3 Z" fill="#000000" fill-rule="nonzero" transform="translate(10.000000, 11.000000) rotate(-315.000000) translate(-10.000000, -11.000000)" />
+    <path d="M20,22 C21.6568542,22 23,20.6568542 23,19 C23,17.8954305 22,16.2287638 20,14 C18,16.2287638 17,17.8954305 17,19 C17,20.6568542 18.3431458,22 20,22 Z" fill="#000000" opacity="0.3" />
+    </g>
+    </svg>
+    <!--end::Svg Icon-->
+    </span>
+
+    <span class="menu-text">Stores</span>
+    <i class="menu-arrow"></i>
+    </a>
+
+
+    </li>
+
+
+
+
+</ul>
+<!--end::Menu Nav-->
+>>>>>>> 0dc4c587d230efb494f9da38233a79532711f1cf
 </div>
-</a>
-<!--end::Item-->
-<!--begin::Item-->
-<a href="#" class="navi-item">
-<div class="navi-link rounded">
-<div class="symbol symbol-50 mr-3">
-<div class="symbol-label">
-<i class="flaticon2-download text-success icon-lg"></i>
+<!--end::Menu Container-->
+</div>
+<!--end::Aside Menu-->
+</div>
+<!--end::Aside-->
+<!--begin::Wrapper-->
+<div class="d-flex flex-column flex-row-fluid wrapper" id="kt_wrapper">
+<!--begin::Header-->
+<div id="kt_header" class="header header-fixed">
+<!--begin::Container-->
+
+<div class="container-fluid d-flex align-items-stretch justify-content-between">
+
+<!--begin::Header Menu Wrapper-->
+<div class="header-menu-wrapper header-menu-wrapper-left" id="kt_header_menu_wrapper">
+
+
+    </div>
+<!--end::Header Menu Wrapper-->
+<!--begin::Topbar-->
+<div class="topbar">
+
+
+
+<!--begin::User-->
+<div class="topbar-item">
+<div class="btn btn-icon w-auto btn-clean d-flex align-items-center btn-lg px-2" id="kt_quick_user_toggle">
+<span class="text-muted font-weight-bold font-size-base d-none d-md-inline mr-1">Hi,</span>
+<span class="text-dark-50 font-weight-bolder font-size-base d-none d-md-inline mr-3">{{(Auth::user()->name)}}</span>
+<span class="symbol symbol-35 symbol-light-success">
+<span class="symbol-label font-size-h5 font-weight-bold">S</span>
+</span>
 </div>
 </div>
-<div class="navi-text">
-<div class="font-weight-bold font-size-lg">2.8 GB-total downloads size</div>
-<div class="text-muted">Mostly PSD end AL concepts</div>
+<!--end::User-->
 </div>
+<!--end::Topbar-->
 </div>
-</a>
-<!--end::Item-->
-<!--begin::Item-->
-<a href="#" class="navi-item">
-<div class="navi-link rounded">
-<div class="symbol symbol-50 mr-3">
-<div class="symbol-label">
-<i class="flaticon2-supermarket text-danger icon-lg"></i>
+<!--end::Container-->
 </div>
+<!--end::Header-->
+<!--begin::Content-->
+<div class="content d-flex flex-column flex-column-fluid" id="kt_content">
+<!--begin::Subheader-->
+<div class="subheader py-2 py-lg-4 subheader-solid" id="kt_subheader">
+<div class="container-fluid d-flex align-items-center justify-content-between flex-wrap flex-sm-nowrap">
+<!--begin::Info-->
+<div class="d-flex align-items-center flex-wrap mr-2">
+<!--begin::Page Title-->
+<h5 class="text-dark font-weight-bold mt-2 mb-2 mr-5">Dashboard</h5>
+<!--end::Page Title-->
+<!--begin::Actions-->
+<div class="subheader-separator subheader-separator-ver mt-2 mb-2 mr-4 bg-gray-200"></div>
+<span class="text-muted font-weight-bold mr-4">{{$category}}</span>
+<a href="#" class="btn btn-light-warning font-weight-bolder btn-sm">{{$title}}</a>
+<!--end::Actions-->
 </div>
-<div class="navi-text">
-<div class="font-weight-bold font-size-lg">$2900 worth producucts sold</div>
-<div class="text-muted">Total 234 items</div>
+<!--end::Info-->
+
+
 </div>
+
+
 </div>
-</a>
-<!--end::Item-->
-<!--begin::Item-->
-<a href="#" class="navi-item">
-<div class="navi-link rounded">
-<div class="symbol symbol-50 mr-3">
-<div class="symbol-label">
-<i class="flaticon-bell text-primary icon-lg"></i>
+<!--end::Subheader-->
+<!--begin::Entry-->
+<div class="d-flex flex-column-fluid">
+<!--begin::Container-->
+<div class="container">
+<!--begin::Dashboard-->
+{{$slot}}
+<!--begin::Row-->
+
+<div class="row">
+<div class="col-lg-6 col-xxl-4">
+<!--begin::Mixed Widget 1-->
+
+
+<!--end::Mixed Widget 1-->
 </div>
+
+
 </div>
-<div class="navi-text">
-<div class="font-weight-bold font-size-lg">7 new user generated report</div>
-<div class="text-muted">Reports based on sales</div>
+<!--end::Row-->
+
+<!--end::Dashboard-->
 </div>
+<!--end::Container-->
 </div>
-</a>
-<!--end::Item-->
-<!--begin::Item-->
-<a href="#" class="navi-item">
-<div class="navi-link rounded">
-<div class="symbol symbol-50 mr-3">
-<div class="symbol-label">
-<i class="flaticon-paper-plane-1 text-success icon-lg"></i>
+<!--end::Entry-->
 </div>
+<!--end::Content-->
+<!--begin::Footer-->
+<div class="footer bg-white py-4 d-flex flex-lg-column" id="kt_footer">
+<!--begin::Container-->
+<div class="container-fluid d-flex flex-column flex-md-row align-items-center justify-content-between">
+<!--begin::Copyright-->
+<div class="text-dark order-2 order-md-1">
+<span class="text-muted font-weight-bold mr-2">2021©</span>
+<a href="/" target="_blank" class="text-dark-75 text-hover-primary">PAL News</a>
 </div>
-<div class="navi-text">
-<div class="font-weight-bold font-size-lg">4.5h-avarage response time</div>
-<div class="text-muted">Fostest is Barry</div>
-</div>
-</div>
-</a>
-<!--end::Item-->
+<!--end::Copyright-->
+<!--begin::Nav-->
+<div class="nav nav-dark">
+<a href="http://keenthemes.com/metronic" target="_blank" class="nav-link pl-0 pr-5">About</a>
+<a href="http://keenthemes.com/metronic" target="_blank" class="nav-link pl-0 pr-5">Team</a>
+<a href="http://keenthemes.com/metronic" target="_blank" class="nav-link pl-0 pr-0">Contact</a>
 </div>
 <!--end::Nav-->
 </div>
-<!--end::Tabpane-->
-<!--begin::Tabpane-->
-<div class="tab-pane fade pt-3 pr-5 mr-n5" id="kt_quick_panel_settings" role="tabpanel">
-<form class="form">
-<!--begin::Section-->
-<div>
-<h5 class="font-weight-bold mb-3">Customer Care</h5>
-<div class="form-group mb-0 row">
-<label class="col-8 col-form-label">Enable Notifications:</label>
-<div class="col-4 text-right">
-<span class="switch switch-success switch-sm">
-<label>
-<input type="checkbox" checked="checked" name="select" />
-<span></span>
-</label>
+<!--end::Container-->
+</div>
+<!--end::Footer-->
+</div>
+<!--end::Wrapper-->
+</div>
+<!--end::Page-->
+</div>
+<!--end::Main-->
+<!-- begin::User Panel-->
+<div id="kt_quick_user" class="offcanvas offcanvas-right p-10">
+<!--begin::Header-->
+<div class="offcanvas-header d-flex align-items-center justify-content-between pb-5">
+<h3 class="font-weight-bold m-0">User Profile
+<small class="text-muted font-size-sm ml-2">12 messages</small></h3>
+<a href="#" class="btn btn-xs btn-icon btn-light btn-hover-primary" id="kt_quick_user_close">
+<i class="ki ki-close icon-xs text-muted"></i>
+</a>
+</div>
+<!--end::Header-->
+<!--begin::Content-->
+<div class="offcanvas-content pr-5 mr-n5">
+<!--begin::Header-->
+<div class="d-flex align-items-center mt-5">
+<div class="symbol symbol-100 mr-5">
+<div class="symbol-label" style="background-image:url('dashboard_files/assets/media/users/300_21.jpg')"></div>
+<i class="symbol-badge bg-success"></i>
+</div>
+<div class="d-flex flex-column">
+<a href="#" class="font-weight-bold font-size-h5 text-dark-75 text-hover-primary">{{Auth::user()->name}}</a>
+<div class="text-muted mt-1">Application Developer</div>
+<div class="navi mt-2">
+<a href="#" class="navi-item">
+<span class="navi-link p-0 pb-2">
+<span class="navi-icon mr-1">
+<span class="svg-icon svg-icon-lg svg-icon-primary">
+<!--begin::Svg Icon | path:dashboard_files/assets/media/svg/icons/Communication/Mail-notification.svg-->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
+<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+<rect x="0" y="0" width="24" height="24" />
+<path d="M21,12.0829584 C20.6747915,12.0283988 20.3407122,12 20,12 C16.6862915,12 14,14.6862915 14,18 C14,18.3407122 14.0283988,18.6747915 14.0829584,19 L5,19 C3.8954305,19 3,18.1045695 3,17 L3,8 C3,6.8954305 3.8954305,6 5,6 L19,6 C20.1045695,6 21,6.8954305 21,8 L21,12.0829584 Z M18.1444251,7.83964668 L12,11.1481833 L5.85557487,7.83964668 C5.4908718,7.6432681 5.03602525,7.77972206 4.83964668,8.14442513 C4.6432681,8.5091282 4.77972206,8.96397475 5.14442513,9.16035332 L11.6444251,12.6603533 C11.8664074,12.7798822 12.1335926,12.7798822 12.3555749,12.6603533 L18.8555749,9.16035332 C19.2202779,8.96397475 19.3567319,8.5091282 19.1603533,8.14442513 C18.9639747,7.77972206 18.5091282,7.6432681 18.1444251,7.83964668 Z" fill="#000000" />
+<circle fill="#000000" opacity="0.3" cx="19.5" cy="17.5" r="2.5" />
+</g>
+</svg>
+<!--end::Svg Icon-->
+</span>
+</span>
+<span class="navi-text text-muted text-hover-primary">{{Auth::user()->email}}</span>
+</span>
+</a>
+</div>
+</div>
+</div>
+<!--end::Header-->
+<!--begin::Separator-->
+<div class="separator separator-dashed mt-8 mb-5"></div>
+<!--end::Separator-->
+<!--begin::Nav-->
+<div class="navi navi-spacer-x-0 p-0">
+
+
+<!--begin::Item-->
+<a href="custom/apps/userprofile-1/overview.html" class="navi-item">
+<div class="navi-link">
+<div class="symbol symbol-40 bg-light mr-3">
+<div class="symbol-label">
+<span class="svg-icon svg-icon-md svg-icon-primary">
+<!--begin::Svg Icon | path:dashboard_files/assets/media/svg/icons/Communication/Mail-opened.svg-->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
+<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+<rect x="0" y="0" width="24" height="24" />
+<path d="M6,2 L18,2 C18.5522847,2 19,2.44771525 19,3 L19,12 C19,12.5522847 18.5522847,13 18,13 L6,13 C5.44771525,13 5,12.5522847 5,12 L5,3 C5,2.44771525 5.44771525,2 6,2 Z M7.5,5 C7.22385763,5 7,5.22385763 7,5.5 C7,5.77614237 7.22385763,6 7.5,6 L13.5,6 C13.7761424,6 14,5.77614237 14,5.5 C14,5.22385763 13.7761424,5 13.5,5 L7.5,5 Z M7.5,7 C7.22385763,7 7,7.22385763 7,7.5 C7,7.77614237 7.22385763,8 7.5,8 L10.5,8 C10.7761424,8 11,7.77614237 11,7.5 C11,7.22385763 10.7761424,7 10.5,7 L7.5,7 Z" fill="#000000" opacity="0.3" />
+<path d="M3.79274528,6.57253826 L12,12.5 L20.2072547,6.57253826 C20.4311176,6.4108595 20.7436609,6.46126971 20.9053396,6.68513259 C20.9668779,6.77033951 21,6.87277228 21,6.97787787 L21,17 C21,18.1045695 20.1045695,19 19,19 L5,19 C3.8954305,19 3,18.1045695 3,17 L3,6.97787787 C3,6.70173549 3.22385763,6.47787787 3.5,6.47787787 C3.60510559,6.47787787 3.70753836,6.51099993 3.79274528,6.57253826 Z" fill="#000000" />
+</g>
+</svg>
+<!--end::Svg Icon-->
 </span>
 </div>
 </div>
-<div class="form-group mb-0 row">
-<label class="col-8 col-form-label">Enable Case Tracking:</label>
-<div class="col-4 text-right">
-<span class="switch switch-success switch-sm">
-<label>
-<input type="checkbox" name="quick_panel_notifications_2" />
-<span></span>
-</label>
-</span>
+<div class="navi-text">
+<div class="font-weight-bold">My Tasks</div>
+<div class="text-muted">latest tasks and projects</div>
 </div>
 </div>
-<div class="form-group mb-0 row">
-<label class="col-8 col-form-label">Support Portal:</label>
-<div class="col-4 text-right">
-<span class="switch switch-success switch-sm">
-<label>
-<input type="checkbox" checked="checked" name="select" />
-<span></span>
-</label>
-</span>
+</a>
+<!--end:Item-->
 </div>
-</div>
-</div>
-<!--end::Section-->
-<div class="separator separator-dashed my-6"></div>
-<!--begin::Section-->
-<div class="pt-2">
-<h5 class="font-weight-bold mb-3">Reports</h5>
-<div class="form-group mb-0 row">
-<label class="col-8 col-form-label">Generate Reports:</label>
-<div class="col-4 text-right">
-<span class="switch switch-sm switch-danger">
-<label>
-<input type="checkbox" checked="checked" name="select" />
-<span></span>
-</label>
-</span>
-</div>
-</div>
-<div class="form-group mb-0 row">
-<label class="col-8 col-form-label">Enable Report Export:</label>
-<div class="col-4 text-right">
-<span class="switch switch-sm switch-danger">
-<label>
-<input type="checkbox" name="select" />
-<span></span>
-</label>
-</span>
-</div>
-</div>
-<div class="form-group mb-0 row">
-<label class="col-8 col-form-label">Allow Data Collection:</label>
-<div class="col-4 text-right">
-<span class="switch switch-sm switch-danger">
-<label>
-<input type="checkbox" checked="checked" name="select" />
-<span></span>
-</label>
-</span>
-</div>
-</div>
-</div>
-<!--end::Section-->
-<div class="separator separator-dashed my-6"></div>
-<!--begin::Section-->
-<div class="pt-2">
-<h5 class="font-weight-bold mb-3">Memebers</h5>
-<div class="form-group mb-0 row">
-<label class="col-8 col-form-label">Enable Member singup:</label>
-<div class="col-4 text-right">
-<span class="switch switch-sm switch-primary">
-<label>
-<input type="checkbox" checked="checked" name="select" />
-<span></span>
-</label>
-</span>
-</div>
-</div>
-<div class="form-group mb-0 row">
-<label class="col-8 col-form-label">Allow User Feedbacks:</label>
-<div class="col-4 text-right">
-<span class="switch switch-sm switch-primary">
-<label>
-<input type="checkbox" name="select" />
-<span></span>
-</label>
-</span>
-</div>
-</div>
-<div class="form-group mb-0 row">
-<label class="col-8 col-form-label">Enable Customer Portal:</label>
-<div class="col-4 text-right">
-<span class="switch switch-sm switch-primary">
-<label>
-<input type="checkbox" checked="checked" name="select" />
-<span></span>
-</label>
-</span>
-</div>
-</div>
-</div>
-<!--end::Section-->
-</form>
-</div>
-<!--end::Tabpane-->
-</div>
+<!--end::Nav-->
+
+
 </div>
 <!--end::Content-->
 </div>
-<!--end::Quick Panel-->
+<!-- end::User Panel-->
+
+
 
 
 <!--begin::Scrolltop-->
@@ -2870,6 +2646,7 @@ Employers
 </span>
 </div>
 <!--end::Scrolltop-->
+<<<<<<< HEAD
 
 <!--begin::Demo Panel-->
 <div id="kt_demo_panel" class="offcanvas offcanvas-right p-10">
@@ -2895,18 +2672,12 @@ Employers
 <a href="https://keenthemes.com/metronic/preview/demo1/rtl/index.html" class="btn btn-light btn-shadow" target="_blank">RTL Version</a>
 </div>
 </div>
+=======
+>>>>>>> 0dc4c587d230efb494f9da38233a79532711f1cf
 
-</div>
-<!--end::Wrapper-->
-<!--begin::Purchase-->
-<div class="offcanvas-footer">
-<a href="https://1.envato.market/EA4JP" target="_blank" class="btn btn-block btn-danger btn-shadow font-weight-bolder text-uppercase">Buy Metronic Now!</a>
-</div>
-<!--end::Purchase-->
-</div>
-<!--end::Content-->
-</div>
-<!--end::Demo Panel-->
+
+
+
 
 @jquery
 @toastr_js
