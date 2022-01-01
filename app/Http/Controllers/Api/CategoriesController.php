@@ -49,10 +49,8 @@ class CategoriesController extends Controller
     {
 
         Category::destroy($id);
-
         return Response::json ([
             'message' => "Category $id deleted"
         ]);
-
     }
 }

@@ -43,14 +43,13 @@ class CategoriesController extends Controller
         'name' => $request->post('name'),
 
         ]);
-        return redirect()->route('admin.categories.index')->with('success','The Section Has Been Added Successfully');
-        return redirect()->back()
-        ->with('success','The Section Has Been Added Successfully');
+        toastr()->success('The Section Has Been Added Successfully');
+        return redirect()->route('admin.categories.index');
 
         } catch (\Exception $e)
         {
-        return redirect()->back()
-        ->with('error','The Section Not Added');
+        toastr()->error('The Section Not Added');
+        return redirect()->back();
         }
 
 

@@ -1,7 +1,7 @@
 
 
-## Pal News
-###### Dashboard News Website - Laravel | PHP
+## Cv Maker 
+<!-- ###### Dashboard News Website - Laravel | PHP
 #### Item Database | Content Dashboard
 * Category - CRUD
 * TAG - CRUD
@@ -24,7 +24,7 @@
 
 * Dashboard Admin and Users or Members . 
 * User Pages : display data from dashboard to user page .
-* apis to mobile developer .
+* apis to mobile developer . -->
 
 
 ## tools and language 

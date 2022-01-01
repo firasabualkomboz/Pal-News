@@ -12,6 +12,7 @@
 <h3 class="card-label">List articles</h3>
 </div>
 <div class="card-toolbar">
+
 <a href="{{route('admin.articles.create')}}" class="btn btn-primary font-weight-bolder">New Article</a>
 </div>
 </div>

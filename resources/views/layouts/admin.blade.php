@@ -1,15 +1,3 @@
-<!--
-Template Name: Metronic - Bootstrap 4 HTML, React, Angular 9 & VueJS Admin Dashboard Theme
-Author: KeenThemes
-Website: http://www.keenthemes.com/
-Contact: support@keenthemes.com
-Follow: www.twitter.com/keenthemes
-Dribbble: www.dribbble.com/keenthemes
-Like: www.facebook.com/keenthemes
-Purchase: https://1.envato.market/EA4JP
-Renew Support: https://1.envato.market/EA4JP
-License: You must have a valid license purchased only from themeforest(the above link) in order to legally use the theme for your project.
--->
 <html lang="en">
 <!--begin::Head-->
 <head><base href="">
@@ -273,7 +261,7 @@ License: You must have a valid license purchased only from themeforest(the above
 <span class="menu-text">Roles</span>
 </span>
 </li>
-@can('role-list')
+{{-- @can('role-list') --}}
 <li class="menu-item menu-item-submenu" aria-haspopup="true" data-menu-toggle="hover">
 <a href="{{route('admin.roles.index')}}" class="menu-link menu-toggle">
 <i class="menu-bullet menu-bullet-dot">
@@ -285,8 +273,8 @@ License: You must have a valid license purchased only from themeforest(the above
 </span>
 </a>
 </li>
-@endcan
-@can('role-create')
+{{-- @endcan --}}
+{{-- @can('role-create') --}}
 <li class="menu-item menu-item-submenu" aria-haspopup="true" data-menu-toggle="hover">
 <a href="{{route('admin.roles.create')}}" class="menu-link menu-toggle">
 <i class="menu-bullet menu-bullet-dot">
@@ -297,7 +285,7 @@ License: You must have a valid license purchased only from themeforest(the above
 </span>
 </a>
 </li>
-@endcan
+{{-- @endcan --}}
 </ul>
 </div>
 </li>
@@ -1129,60 +1117,15 @@ License: You must have a valid license purchased only from themeforest(the above
 <!--begin::Topbar-->
 <div class="topbar">
 <!--begin::Search-->
+
 <div class="dropdown" id="kt_quick_search_toggle">
 <!--begin::Toggle-->
 <div class="topbar-item" data-toggle="dropdown" data-offset="10px,0px">
-<div class="btn btn-icon btn-clean btn-lg btn-dropdown mr-1">
-<span class="svg-icon svg-icon-xl svg-icon-primary">
-<!--begin::Svg Icon | path:dashboard_files/assets/media/svg/icons/General/Search.svg-->
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
-<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-<rect x="0" y="0" width="24" height="24" />
-<path d="M14.2928932,16.7071068 C13.9023689,16.3165825 13.9023689,15.6834175 14.2928932,15.2928932 C14.6834175,14.9023689 15.3165825,14.9023689 15.7071068,15.2928932 L19.7071068,19.2928932 C20.0976311,19.6834175 20.0976311,20.3165825 19.7071068,20.7071068 C19.3165825,21.0976311 18.6834175,21.0976311 18.2928932,20.7071068 L14.2928932,16.7071068 Z" fill="#000000" fill-rule="nonzero" opacity="0.3" />
-<path d="M11,16 C13.7614237,16 16,13.7614237 16,11 C16,8.23857625 13.7614237,6 11,6 C8.23857625,6 6,8.23857625 6,11 C6,13.7614237 8.23857625,16 11,16 Z M11,18 C7.13400675,18 4,14.8659932 4,11 C4,7.13400675 7.13400675,4 11,4 C14.8659932,4 18,7.13400675 18,11 C18,14.8659932 14.8659932,18 11,18 Z" fill="#000000" fill-rule="nonzero" />
-</g>
-</svg>
-<!--end::Svg Icon-->
-</span>
-</div>
+Employers
 </div>
 <!--end::Toggle-->
-<!--begin::Dropdown-->
-<div class="dropdown-menu p-0 m-0 dropdown-menu-right dropdown-menu-anim-up dropdown-menu-lg">
-<div class="quick-search quick-search-dropdown" id="kt_quick_search_dropdown">
-<!--begin:Form-->
-<form method="get" class="quick-search-form">
-<div class="input-group">
-<div class="input-group-prepend">
-<span class="input-group-text">
-<span class="svg-icon svg-icon-lg">
-<!--begin::Svg Icon | path:dashboard_files/assets/media/svg/icons/General/Search.svg-->
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
-<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-<rect x="0" y="0" width="24" height="24" />
-<path d="M14.2928932,16.7071068 C13.9023689,16.3165825 13.9023689,15.6834175 14.2928932,15.2928932 C14.6834175,14.9023689 15.3165825,14.9023689 15.7071068,15.2928932 L19.7071068,19.2928932 C20.0976311,19.6834175 20.0976311,20.3165825 19.7071068,20.7071068 C19.3165825,21.0976311 18.6834175,21.0976311 18.2928932,20.7071068 L14.2928932,16.7071068 Z" fill="#000000" fill-rule="nonzero" opacity="0.3" />
-<path d="M11,16 C13.7614237,16 16,13.7614237 16,11 C16,8.23857625 13.7614237,6 11,6 C8.23857625,6 6,8.23857625 6,11 C6,13.7614237 8.23857625,16 11,16 Z M11,18 C7.13400675,18 4,14.8659932 4,11 C4,7.13400675 7.13400675,4 11,4 C14.8659932,4 18,7.13400675 18,11 C18,14.8659932 14.8659932,18 11,18 Z" fill="#000000" fill-rule="nonzero" />
-</g>
-</svg>
-<!--end::Svg Icon-->
-</span>
-</span>
-</div>
-<input type="text" class="form-control" placeholder="Search..." />
-<div class="input-group-append">
-<span class="input-group-text">
-<i class="quick-search-close ki ki-close icon-sm text-muted"></i>
-</span>
-</div>
-</div>
-</form>
-<!--end::Form-->
-<!--begin::Scroll-->
-<div class="quick-search-wrapper scroll" data-scroll="true" data-height="325" data-mobile-height="200"></div>
-<!--end::Scroll-->
-</div>
-</div>
-<!--end::Dropdown-->
+
+
 </div>
 <!--end::Search-->
 <!--begin::Notifications-->
@@ -1881,7 +1824,9 @@ License: You must have a valid license purchased only from themeforest(the above
 <!--begin::Toolbar-->
 <div class="d-flex align-items-center">
 <!--begin::Actions-->
-<a href="#" class="btn btn-clean btn-hover-light-primary- active btn-sm font-weight-bold font-size-base mr-1">Today</a>
+<a href="#" class="btn btn-clean btn-hover-light-primary- active btn-sm font-weight-bold font-size-base mr-1">Employers</a>
+<a href="#" class="btn btn-clean btn-hover-light-primary- active btn-sm font-weight-bold font-size-base mr-1">projects</a>
+<a href="#" class="btn btn-clean btn-hover-light-primary- active btn-sm font-weight-bold font-size-base mr-1">Tasks</a>
 <a href="#" class="btn btn-clean btn-hover-light-primary- btn-sm font-weight-bold font-size-base mr-1">Month</a>
 <a href="#" class="btn btn-clean btn-hover-light-primary- btn-sm font-weight-bold font-size-base mr-1">Year</a>
 <!--end::Actions-->
@@ -2925,38 +2870,7 @@ License: You must have a valid license purchased only from themeforest(the above
 </span>
 </div>
 <!--end::Scrolltop-->
-<!--begin::Sticky Toolbar-->
-<ul class="sticky-toolbar nav flex-column pl-2 pr-2 pt-3 pb-3 mt-4">
-<!--begin::Item-->
-<li class="nav-item mb-2" id="kt_demo_panel_toggle" data-toggle="tooltip" title="Check out more demos" data-placement="right">
-<a class="btn btn-sm btn-icon btn-bg-light btn-text-success btn-hover-success" href="#">
-<i class="flaticon2-drop"></i>
-</a>
-</li>
-<!--end::Item-->
-<!--begin::Item-->
-<li class="nav-item mb-2" data-toggle="tooltip" title="Layout Builder" data-placement="left">
-<a class="btn btn-sm btn-icon btn-bg-light btn-text-primary btn-hover-primary" href="https://keenthemes.com/metronic/preview/demo1/builder.html" target="_blank">
-<i class="flaticon2-gear"></i>
-</a>
-</li>
-<!--end::Item-->
-<!--begin::Item-->
-<li class="nav-item mb-2" data-toggle="tooltip" title="Documentation" data-placement="left">
-<a class="btn btn-sm btn-icon btn-bg-light btn-text-warning btn-hover-warning" href="https://keenthemes.com/metronic/?page=docs" target="_blank">
-<i class="flaticon2-telegram-logo"></i>
-</a>
-</li>
-<!--end::Item-->
-<!--begin::Item-->
-<li class="nav-item" id="kt_sticky_toolbar_chat_toggler" data-toggle="tooltip" title="Chat Example" data-placement="left">
-<a class="btn btn-sm btn-icon btn-bg-light btn-text-danger btn-hover-danger" href="#" data-toggle="modal" data-target="#kt_chat_modal">
-<i class="flaticon2-chat-1"></i>
-</a>
-</li>
-<!--end::Item-->
-</ul>
-<!--end::Sticky Toolbar-->
+
 <!--begin::Demo Panel-->
 <div id="kt_demo_panel" class="offcanvas offcanvas-right p-10">
 <!--begin::Header-->
